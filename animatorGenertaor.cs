@@ -6,6 +6,7 @@ using AnimatorController = UnityEditor.Animations.AnimatorController;
 using AnimatorStateMachine = UnityEditor.Animations.AnimatorStateMachine;
 using AnimatorState = UnityEditor.Animations.AnimatorState;
 using AnimatorStateTransition = UnityEditor.Animations.AnimatorStateTransition;
+using System;
 
 public class animatorGenertaor : EditorWindow
 {
@@ -27,7 +28,8 @@ public class animatorGenertaor : EditorWindow
         EditorWindow.GetWindow(typeof(animatorGenertaor)); //显示该窗口
     }
 
-    string SavePath;
+    string SavePath = "";
+    int DurationTime = 2;
     private void Generate()
     {
         if (string.IsNullOrEmpty(SavePath))
@@ -46,7 +48,7 @@ public class animatorGenertaor : EditorWindow
             AnimatorState newState = stateMachine.AddState(AnimationClips[i].name);
             newState.motion = AnimationClips[i];
             AnimatorStateTransition transition = lastState.AddTransition(newState);
-            transition.duration = 2;
+            transition.duration = DurationTime;
             transition.hasExitTime = true;
             lastState = newState;
         }
@@ -107,8 +109,10 @@ public class animatorGenertaor : EditorWindow
             AnimationClips.RemoveAt(AnimationClips.Count - 1);
         }
 
+        GUILayout.Label("过渡时间", EditorStyles.boldLabel);
+        DurationTime = int.Parse(GUILayout.TextField(Convert.ToString(DurationTime)));
         GUILayout.Label("生成文件名", EditorStyles.boldLabel);
-        SavePath = GUILayout.TextField("");
+        SavePath = GUILayout.TextField(SavePath);
 
         if (GUILayout.Button("生成"))
         {
