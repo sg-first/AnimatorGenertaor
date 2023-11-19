@@ -47,6 +47,7 @@ public class animatorGenertaor : EditorWindow
             newState.motion = AnimationClips[i];
             AnimatorStateTransition transition = lastState.AddTransition(newState);
             transition.duration = 2;
+            transition.hasExitTime = true;
             lastState = newState;
         }
         AssetDatabase.SaveAssets();
