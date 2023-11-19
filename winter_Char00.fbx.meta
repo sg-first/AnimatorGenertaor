@@ -1,0 +1,1192 @@
+fileFormatVersion: 2
+guid: 51704503e0b625547b68e03b5b54997e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'nvhai_rig_HIK:Elbow_R' has translation
+      animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_R' has translation
+      animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_R'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:Wrist_R'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:Elbow_L'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_L'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_L'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:Wrist_L'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1174
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: nvhai_rig_HIK:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Spine2_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger3_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger1_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger2_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger3_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger3_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger2_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger3_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger1_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger2_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger3_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Chest_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: winter_Char00(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MainExtra2
+      parentName: winter_Char00(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MainExtra1
+      parentName: nvhai_rig_HIK:MainExtra2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Main
+      parentName: nvhai_rig_HIK:MainExtra1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:DeformationSystem
+      parentName: nvhai_rig_HIK:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Root_M
+      parentName: nvhai_rig_HIK:DeformationSystem
+      position: {x: 0.000000029802322, y: 0.7492671, z: 0.012498647}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Spine1_M
+      parentName: nvhai_rig_HIK:Root_M
+      position: {x: -0.07569033, y: -0.000000004801988, z: 0.00000001610977}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: nvhai_rig_HIK:Spine2_M
+      parentName: nvhai_rig_HIK:Spine1_M
+      position: {x: -0.07569043, y: -0.0000000038369126, z: -0.00000001253548}
+      rotation: {x: -0, y: -0, z: -0, w: -1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: nvhai_rig_HIK:Chest_M
+      parentName: nvhai_rig_HIK:Spine2_M
+      position: {x: -0.07569034, y: -0.00000001068509, z: -0.000000028190108}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: -0.054030627, w: -0.9985393}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:Scapula_L
+      parentName: nvhai_rig_HIK:Chest_M
+      position: {x: -0.09161922, y: 0.01439376, z: 0.02095508}
+      rotation: {x: -0.7221834, y: 0.1376892, z: -0.6756143, w: 0.05511961}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: nvhai_rig_HIK:Shoulder_L
+      parentName: nvhai_rig_HIK:Scapula_L
+      position: {x: 0.09290389, y: -0.000000001488344, z: -0.00000003446846}
+      rotation: {x: 0.0043775216, y: 0.04031361, z: -0.14617565, w: 0.9884272}
+      scale: {x: 1.0000011, y: 1.0000001, z: 1.0000005}
+    - name: nvhai_rig_HIK:Elbow_L
+      parentName: nvhai_rig_HIK:Shoulder_L
+      position: {x: 0.22119749, y: 0.00005010847, z: 0.00006830399}
+      rotation: {x: -0.00000001816079, y: -0.000000026077032, z: -0.0033246004, w: 0.9999945}
+      scale: {x: 1.0000015, y: 1.0000013, z: 1.000001}
+    - name: nvhai_rig_HIK:ElbowPart1_L
+      parentName: nvhai_rig_HIK:Elbow_L
+      position: {x: 0.06288544, y: -0.00016590109, z: 0.0001494788}
+      rotation: {x: -0, y: -0, z: -4.7357946e-16, w: 1}
+      scale: {x: 1.0000013, y: 1.0000004, z: 1.0000005}
+    - name: nvhai_rig_HIK:ElbowPart2_L
+      parentName: nvhai_rig_HIK:ElbowPart1_L
+      position: {x: 0.06290762, y: -1.2789771e-15, z: 1.669775e-15}
+      rotation: {x: 0.000000007450539, y: 2.4769516e-11, z: -0, w: 1}
+      scale: {x: 1.0000013, y: 1.0000004, z: 1.0000004}
+    - name: nvhai_rig_HIK:Wrist_L
+      parentName: nvhai_rig_HIK:ElbowPart2_L
+      position: {x: 0.06288584, y: 9.947598e-16, z: 3.197442e-16}
+      rotation: {x: -0.003506897, y: 0.050098572, z: -0.041187637, w: 0.9978885}
+      scale: {x: 1.0000024, y: 1.0000013, z: 1.0000019}
+    - name: nvhai_rig_HIK:Cup_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.0247173, y: 0.01288193, z: 0.000005304102}
+      rotation: {x: -0.00006047193, y: 0.001331888, z: -0.045352086, w: 0.99897015}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: nvhai_rig_HIK:PinkyFinger1_L
+      parentName: nvhai_rig_HIK:Cup_L
+      position: {x: 0.03191434, y: 0.02326466, z: 0.003268424}
+      rotation: {x: -0.008695405, y: -0.032563914, z: 0.11997776, w: 0.99220425}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000007}
+    - name: nvhai_rig_HIK:PinkyFinger2_L
+      parentName: nvhai_rig_HIK:PinkyFinger1_L
+      position: {x: 0.027820129, y: -0.00000002194276, z: -0.000000032872688}
+      rotation: {x: 0.0023081212, y: -0.0058543156, z: 0.0020052006, w: 0.9999782}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: nvhai_rig_HIK:PinkyFinger3_L
+      parentName: nvhai_rig_HIK:PinkyFinger2_L
+      position: {x: 0.01987285, y: -0.000000004350517, z: 0.00000001086534}
+      rotation: {x: -0.018637562, y: -0.00421757, z: -0.000102848455, w: -0.99981743}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999998}
+    - name: nvhai_rig_HIK:PinkyFinger4_L
+      parentName: nvhai_rig_HIK:PinkyFinger3_L
+      position: {x: 0.017298827, y: 8.8817837e-17, z: -2.5579537e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RingFinger1_L
+      parentName: nvhai_rig_HIK:Cup_L
+      position: {x: 0.03933441, y: 0.008776568, z: -0.000113944}
+      rotation: {x: 0.0018954825, y: -0.042640794, z: 0.115792036, w: 0.992356}
+      scale: {x: 1.0000013, y: 1.0000008, z: 1.0000011}
+    - name: nvhai_rig_HIK:RingFinger2_L
+      parentName: nvhai_rig_HIK:RingFinger1_L
+      position: {x: 0.03394574, y: -0.0000000403147, z: -0.00000003268024}
+      rotation: {x: -0.0024745986, y: -0.008659155, z: 0.00024889575, w: 0.9999594}
+      scale: {x: 0.9999996, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:RingFinger3_L
+      parentName: nvhai_rig_HIK:RingFinger2_L
+      position: {x: 0.02449199, y: 0.0000000173682, z: 0.00000000141998}
+      rotation: {x: -0.0049370886, y: -0.0031607344, z: -0.000006426491, w: -0.9999829}
+      scale: {x: 1.0000033, y: 1.0000012, z: 1.0000018}
+    - name: nvhai_rig_HIK:RingFinger4_L
+      parentName: nvhai_rig_HIK:RingFinger3_L
+      position: {x: 0.021008058, y: 2.7089442e-16, z: 5.1159075e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MiddleFinger1_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.069440275, y: -0.00000003182079, z: -0.00000002358185}
+      rotation: {x: 0.0037043958, y: -0.06349971, z: 0.052687068, w: 0.9965832}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: nvhai_rig_HIK:MiddleFinger2_L
+      parentName: nvhai_rig_HIK:MiddleFinger1_L
+      position: {x: 0.03966745, y: 0.000000007501558, z: 0.00000002505603}
+      rotation: {x: -0.0003190506, y: 0.0055267136, z: -0.000010386574, w: -0.99998474}
+      scale: {x: 1.0000012, y: 1.0000008, z: 1.0000006}
+    - name: nvhai_rig_HIK:MiddleFinger3_L
+      parentName: nvhai_rig_HIK:MiddleFinger2_L
+      position: {x: 0.028862258, y: -0.000000006449345, z: 0.0000000056469793}
+      rotation: {x: 0.00046573783, y: 0.002230562, z: -0.0000001939381, w: 0.99999744}
+      scale: {x: 1.0000019, y: 1.0000011, z: 1.0000012}
+    - name: nvhai_rig_HIK:MiddleFinger4_L
+      parentName: nvhai_rig_HIK:MiddleFinger3_L
+      position: {x: 0.016981622, y: -1.3877788e-17, z: -4.8316907e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IndexFinger1_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.07066031, y: -0.017725779, z: 0.0027408518}
+      rotation: {x: -0.0068931067, y: 0.07453434, z: -0.02432118, w: -0.99689806}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:IndexFinger2_L
+      parentName: nvhai_rig_HIK:IndexFinger1_L
+      position: {x: 0.03171415, y: -0.00000001563647, z: -0.000000008258234}
+      rotation: {x: 0.0000000456348, y: 0.007455713, z: -0.00052524, w: 0.9999721}
+      scale: {x: 1.0000017, y: 1.0000008, z: 1.0000007}
+    - name: nvhai_rig_HIK:IndexFinger3_L
+      parentName: nvhai_rig_HIK:IndexFinger2_L
+      position: {x: 0.02369685, y: 0.000000004720944, z: -0.00000003852764}
+      rotation: {x: 0.014277848, y: -0.0043639475, z: -0.000012504617, w: -0.9998886}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.0000002}
+    - name: nvhai_rig_HIK:IndexFinger4_L
+      parentName: nvhai_rig_HIK:IndexFinger3_L
+      position: {x: 0.018881213, y: 1.7763568e-17, z: -2.7000624e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ThumbFinger1_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.01518707, y: -0.01378736, z: 0.008821883}
+      rotation: {x: -0.3647504, y: 0.080945276, z: -0.38815233, w: 0.8424624}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999996}
+    - name: nvhai_rig_HIK:ThumbFinger2_L
+      parentName: nvhai_rig_HIK:ThumbFinger1_L
+      position: {x: 0.02809731, y: 0.00000001751882, z: 0.00000001069601}
+      rotation: {x: 0.00025978673, y: -0.025653018, z: 0.021889476, w: 0.99943125}
+      scale: {x: 0.9999986, y: 1.0000013, z: 1.0000006}
+    - name: nvhai_rig_HIK:ThumbFinger3_L
+      parentName: nvhai_rig_HIK:ThumbFinger2_L
+      position: {x: 0.02991226, y: -0.000000056030057, z: -0.00000004581729}
+      rotation: {x: 0.00000003128661, y: -0.00000011920926, z: 0.0320924, w: 0.9994849}
+      scale: {x: 0.9999996, y: 1.0000004, z: 1.0000001}
+    - name: nvhai_rig_HIK:ThumbFinger4_L
+      parentName: nvhai_rig_HIK:ThumbFinger3_L
+      position: {x: 0.019168304, y: 2.842171e-16, z: 1.6342482e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Scapula_R
+      parentName: nvhai_rig_HIK:Chest_M
+      position: {x: -0.09161923, y: 0.01439375, z: -0.02095515}
+      rotation: {x: 0.13768925, y: 0.72218347, z: -0.055119622, w: -0.6756143}
+      scale: {x: 1.0000011, y: 1.0000013, z: 1.000001}
+    - name: nvhai_rig_HIK:Shoulder_R
+      parentName: nvhai_rig_HIK:Scapula_R
+      position: {x: -0.092903905, y: 0.000000054564328, z: 0.000000008990119}
+      rotation: {x: 0.0043775435, y: 0.04031366, z: -0.14617573, w: 0.9884273}
+      scale: {x: 1.0000029, y: 1.0000004, z: 1.0000002}
+    - name: nvhai_rig_HIK:Elbow_R
+      parentName: nvhai_rig_HIK:Shoulder_R
+      position: {x: -0.2212684, y: -0.00001913407, z: -0.00000962329}
+      rotation: {x: -0.00000006891785, y: -0.00000004097818, z: -0.0033246002, w: 0.99999446}
+      scale: {x: 1.0000015, y: 1.000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:ElbowPart1_R
+      parentName: nvhai_rig_HIK:Elbow_R
+      position: {x: -0.062893815, y: -0.000001297535, z: -0.0000068635777}
+      rotation: {x: 7.105425e-15, y: -0, z: -2.824128e-15, w: 1}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000002}
+    - name: nvhai_rig_HIK:ElbowPart2_R
+      parentName: nvhai_rig_HIK:ElbowPart1_R
+      position: {x: -0.0629089, y: -2.458478e-14, z: -3.82272e-14}
+      rotation: {x: 0.00000014484459, y: -0.0000000069690653, z: -0.000000015133988, w: 1}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: nvhai_rig_HIK:Wrist_R
+      parentName: nvhai_rig_HIK:ElbowPart2_R
+      position: {x: -0.062893815, y: 1.691092e-14, z: -6.433964e-14}
+      rotation: {x: -0.0035070204, y: 0.050098557, z: -0.041187625, w: 0.9978885}
+      scale: {x: 1.0000011, y: 1.0000007, z: 1.000001}
+    - name: nvhai_rig_HIK:Cup_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.0247173, y: -0.01288193, z: -0.000005304102}
+      rotation: {x: -0.00006041814, y: 0.0013318915, z: -0.04535216, w: 0.99897015}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000007}
+    - name: nvhai_rig_HIK:PinkyFinger1_R
+      parentName: nvhai_rig_HIK:Cup_R
+      position: {x: -0.03191434, y: -0.02326462, z: -0.003268468}
+      rotation: {x: -0.008695295, y: -0.032563295, z: 0.119977, w: 0.9922045}
+      scale: {x: 1, y: 1.0000011, z: 1.000001}
+    - name: nvhai_rig_HIK:PinkyFinger2_R
+      parentName: nvhai_rig_HIK:PinkyFinger1_R
+      position: {x: -0.027820129, y: -0.00000002076253, z: 0.000000043544578}
+      rotation: {x: 0.0023081198, y: -0.005854245, z: 0.0020052155, w: 0.9999782}
+      scale: {x: 1.0000012, y: 0.9999997, z: 1}
+    - name: nvhai_rig_HIK:PinkyFinger3_R
+      parentName: nvhai_rig_HIK:PinkyFinger2_R
+      position: {x: -0.01987286, y: 0.000000030680088, z: -0.000000006245082}
+      rotation: {x: 0.018637564, y: 0.004217477, z: 0.00010281915, w: 0.9998174}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999994}
+    - name: nvhai_rig_HIK:PinkyFinger4_R
+      parentName: nvhai_rig_HIK:PinkyFinger3_R
+      position: {x: -0.017298827, y: 1.5987211e-16, z: 3.694822e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RingFinger1_R
+      parentName: nvhai_rig_HIK:Cup_R
+      position: {x: -0.039334357, y: -0.008776562, z: 0.000113935996}
+      rotation: {x: 0.0018956063, y: -0.042640913, z: 0.11579231, w: 0.992356}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000011}
+    - name: nvhai_rig_HIK:RingFinger2_R
+      parentName: nvhai_rig_HIK:RingFinger1_R
+      position: {x: -0.033945788, y: 0.00000002574095, z: 0.00000002093255}
+      rotation: {x: -0.002474568, y: -0.00865921, z: 0.00024894293, w: 0.9999594}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: nvhai_rig_HIK:RingFinger3_R
+      parentName: nvhai_rig_HIK:RingFinger2_R
+      position: {x: -0.02449196, y: -7.546721e-10, z: -0.00000002423344}
+      rotation: {x: 0.004937036, y: 0.0031607335, z: 0.0000064115325, w: 0.9999829}
+      scale: {x: 1.0000015, y: 1.0000004, z: 1.0000012}
+    - name: nvhai_rig_HIK:RingFinger4_R
+      parentName: nvhai_rig_HIK:RingFinger3_R
+      position: {x: -0.021008058, y: -2.220446e-16, z: -3.410605e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MiddleFinger1_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.06944027, y: 0.0000000091410675, z: -0.000000045381988}
+      rotation: {x: 0.003704447, y: -0.06350021, z: 0.052687418, w: 0.99658316}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000012}
+    - name: nvhai_rig_HIK:MiddleFinger2_R
+      parentName: nvhai_rig_HIK:MiddleFinger1_R
+      position: {x: -0.03966746, y: 0.00000001809375, z: -0.000000017558989}
+      rotation: {x: 0.00031911387, y: -0.0055267275, z: 0.000010362096, w: 0.9999847}
+      scale: {x: 1.0000014, y: 1.0000006, z: 1.0000006}
+    - name: nvhai_rig_HIK:MiddleFinger3_R
+      parentName: nvhai_rig_HIK:MiddleFinger2_R
+      position: {x: -0.0288623, y: -3.097067e-10, z: 0.000000033959658}
+      rotation: {x: 0.00046564083, y: 0.002230577, z: -0.0000001974267, w: 0.99999744}
+      scale: {x: 1.0000029, y: 1.0000018, z: 1.0000011}
+    - name: nvhai_rig_HIK:MiddleFinger4_R
+      parentName: nvhai_rig_HIK:MiddleFinger3_R
+      position: {x: -0.016981622, y: -1.8873792e-17, z: 4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IndexFinger1_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.07066031, y: 0.017725809, z: -0.002740884}
+      rotation: {x: 0.006893024, y: -0.074534394, z: 0.024321133, w: 0.996898}
+      scale: {x: 1.0000014, y: 1.000001, z: 1.0000013}
+    - name: nvhai_rig_HIK:IndexFinger2_R
+      parentName: nvhai_rig_HIK:IndexFinger1_R
+      position: {x: -0.03171412, y: 0.0000000072263617, z: 6.517652e-10}
+      rotation: {x: 0.00000008335335, y: 0.007455757, z: -0.00052521547, w: 0.9999721}
+      scale: {x: 1.0000012, y: 1.0000012, z: 1.000001}
+    - name: nvhai_rig_HIK:IndexFinger3_R
+      parentName: nvhai_rig_HIK:IndexFinger2_R
+      position: {x: -0.02369687, y: -0.00000001811643, z: 0.000000002782159}
+      rotation: {x: -0.014277853, y: 0.00436395, z: 0.000012459176, w: 0.99988854}
+      scale: {x: 1.0000015, y: 1.0000006, z: 1.0000004}
+    - name: nvhai_rig_HIK:IndexFinger4_R
+      parentName: nvhai_rig_HIK:IndexFinger3_R
+      position: {x: -0.018881213, y: -8.881784e-18, z: 9.947598e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ThumbFinger1_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.015187089, y: 0.01378738, z: -0.008821918}
+      rotation: {x: -0.36475068, y: 0.08094484, z: -0.38815305, w: 0.842462}
+      scale: {x: 1.0000017, y: 1.000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:ThumbFinger2_R
+      parentName: nvhai_rig_HIK:ThumbFinger1_R
+      position: {x: -0.02809731, y: -0.00000001569231, z: 0.000000015455319}
+      rotation: {x: 0.0002597271, y: -0.025650296, z: 0.021889033, w: 0.9994314}
+      scale: {x: 0.9999984, y: 1.0000023, z: 1.0000011}
+    - name: nvhai_rig_HIK:ThumbFinger3_R
+      parentName: nvhai_rig_HIK:ThumbFinger2_R
+      position: {x: -0.029912299, y: 0.000000005058143, z: 0.000000009528484}
+      rotation: {x: -0.000000016501865, y: -0.000000029802308, z: 0.0320924, w: 0.9994849}
+      scale: {x: 1.0000004, y: 1.0000015, z: 1.0000007}
+    - name: nvhai_rig_HIK:ThumbFinger4_R
+      parentName: nvhai_rig_HIK:ThumbFinger3_R
+      position: {x: -0.019168304, y: 4.2632563e-16, z: -3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Neck_M
+      parentName: nvhai_rig_HIK:Chest_M
+      position: {x: -0.13034299, y: 0.0000003821701, z: 0.000000062826835}
+      rotation: {x: 0.00000003422918, y: -0.000000024591053, z: -0.21478431, w: 0.97666156}
+      scale: {x: 1.000001, y: 1.0000018, z: 1.0000008}
+    - name: nvhai_rig_HIK:Head_M
+      parentName: nvhai_rig_HIK:Neck_M
+      position: {x: -0.057051647, y: -0.00000001509957, z: -0.000000028820008}
+      rotation: {x: -0, y: 1.7763566e-15, z: -0.16170093, w: -0.9868398}
+      scale: {x: 1.0000006, y: 1, z: 1.0000007}
+    - name: nvhai_rig_HIK:HeadEnd_M
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.26408994, y: 1.7652545e-16, z: -2.5066468e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HDJ_1_L_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.2633168, y: -0.049070578, z: 0.0139951}
+      rotation: {x: -0.8817738, y: -0.19504632, z: 0.3930148, w: -0.17312187}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: nvhai_rig_HIK:HDJ_2_L_L
+      parentName: nvhai_rig_HIK:HDJ_1_L_L
+      position: {x: -0.01723911, y: 1.8474108e-15, z: 4.263256e-16}
+      rotation: {x: -0, y: -0, z: -0.000000014901159, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:HDJ_3_L_L
+      parentName: nvhai_rig_HIK:HDJ_2_L_L
+      position: {x: -0.01723911, y: -1.563194e-15, z: 9.947598e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: nvhai_rig_HIK:HDJ_4_L_L
+      parentName: nvhai_rig_HIK:HDJ_3_L_L
+      position: {x: -0.01723911, y: 2.273737e-15, z: -7.1054264e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: nvhai_rig_HIK:HDJ_5_L_L
+      parentName: nvhai_rig_HIK:HDJ_4_L_L
+      position: {x: -0.017239105, y: -2.2737367e-15, z: -9.947598e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HDJ_1_R_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.2636358, y: -0.04812047, z: -0.0134074995}
+      rotation: {x: -0.91621935, y: -0.15855671, z: -0.25507826, w: 0.2652111}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: nvhai_rig_HIK:HDJ_2_R_R
+      parentName: nvhai_rig_HIK:HDJ_1_R_R
+      position: {x: -0.016801199, y: 7.1054264e-16, z: -1.24345e-16}
+      rotation: {x: 0.0026515422, y: 0.030946147, z: -0.085327856, w: 0.99586874}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: nvhai_rig_HIK:HDJ_3_R_R
+      parentName: nvhai_rig_HIK:HDJ_2_R_R
+      position: {x: -0.016801199, y: -8.5265126e-16, z: -7.1054265e-17}
+      rotation: {x: -0.014781367, y: 0.10144447, z: -0.14342625, w: 0.9843371}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:HDJ_4_R_R
+      parentName: nvhai_rig_HIK:HDJ_3_R_R
+      position: {x: -0.016801199, y: -8.5265126e-16, z: -4.263256e-16}
+      rotation: {x: 0.000000097788856, y: -0.000000052154057, z: -0.18882616, w: 0.98201054}
+      scale: {x: 0.9999998, y: 1.000001, z: 1.0000007}
+    - name: nvhai_rig_HIK:HDJ_5_R_R
+      parentName: nvhai_rig_HIK:HDJ_4_R_R
+      position: {x: -0.016801203, y: 4.2632563e-16, z: -2.8421708e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_1_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1434932, y: 0.021420099, z: 0.10955539}
+      rotation: {x: 0.1722861, y: -0.0059024445, z: -0.041835144, w: -0.98414046}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: nvhai_rig_HIK:Hair_side_2_L
+      parentName: nvhai_rig_HIK:Hair_side_1_L
+      position: {x: 0.048250843, y: 2.842171e-16, z: -2.4869e-16}
+      rotation: {x: -0, y: 4.6566112e-10, z: -0.000000001629814, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_3_L
+      parentName: nvhai_rig_HIK:Hair_side_2_L
+      position: {x: 0.048250843, y: 1.4210849e-16, z: 1.776357e-17}
+      rotation: {x: -0.000000044739444, y: -0.0000000135027864, z: 0.0772245, w: 0.99701375}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_4_L
+      parentName: nvhai_rig_HIK:Hair_side_3_L
+      position: {x: 0.048250843, y: -2.842171e-16, z: -1.776357e-16}
+      rotation: {x: -0, y: -0, z: -6.041072e-16, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_5_L
+      parentName: nvhai_rig_HIK:Hair_side_4_L
+      position: {x: 0.048250843, y: -2.842171e-16, z: -1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_1_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1434932, y: 0.021420099, z: -0.10955539}
+      rotation: {x: -0.00590251, y: -0.17228617, z: 0.9841405, w: -0.04183516}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    - name: nvhai_rig_HIK:Hair_side_2_R
+      parentName: nvhai_rig_HIK:Hair_side_1_R
+      position: {x: -0.048250843, y: 0, z: 2.131628e-16}
+      rotation: {x: -0, y: -0, z: 0.0000000013969838, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: nvhai_rig_HIK:Hair_side_3_R
+      parentName: nvhai_rig_HIK:Hair_side_2_R
+      position: {x: -0.048250843, y: 0, z: 1.4210849e-16}
+      rotation: {x: 0.000000023865137, y: -0.00000007078051, z: 0.077224545, w: 0.9970137}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: nvhai_rig_HIK:Hair_side_4_R
+      parentName: nvhai_rig_HIK:Hair_side_3_R
+      position: {x: -0.048250843, y: 1.4210849e-16, z: -2.842171e-16}
+      rotation: {x: -0, y: -0, z: 1.6891866e-15, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: nvhai_rig_HIK:Hair_side_5_R
+      parentName: nvhai_rig_HIK:Hair_side_4_R
+      position: {x: -0.048250843, y: 2.1316282e-16, z: 2.3092638e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairA_1_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.046618946, y: 0.01418213, z: 0.1452872}
+      rotation: {x: 0.66138405, y: -0.00000004097819, z: 0.0000000372529, w: 0.7500474}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: nvhai_rig_HIK:HairA_2_L
+      parentName: nvhai_rig_HIK:HairA_1_L
+      position: {x: 0.005584775, y: 0, z: 6.947163e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairB_1_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.03719635, y: -0.1269066, z: 0.1363185}
+      rotation: {x: -0.8379439, y: -0, z: -0.000000022351742, w: -0.54575646}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:HairB_2_L
+      parentName: nvhai_rig_HIK:HairB_1_L
+      position: {x: 0.005584775, y: 3.1974422e-16, z: -2.664535e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairC_1_M
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.02011383, y: -0.21741599, z: 7.1054265e-17}
+      rotation: {x: 0.000000044703484, y: -0.9999686, z: -0.007932067, w: -0.000000007450581}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: nvhai_rig_HIK:HairC_2_M
+      parentName: nvhai_rig_HIK:HairC_1_M
+      position: {x: -0.005584775, y: 1.0658141e-16, z: 1.6542323e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairB_1_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.03719635, y: -0.1269066, z: -0.1363185}
+      rotation: {x: 0.000000029802319, y: -0.8379438, z: -0.5457565, w: -0.00000004097819}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: nvhai_rig_HIK:HairB_2_R
+      parentName: nvhai_rig_HIK:HairB_1_R
+      position: {x: -0.005584775, y: -4.2632563e-16, z: 2.753353e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairA_1_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.046618946, y: 0.01418213, z: -0.1452872}
+      rotation: {x: 0.00000002235174, y: -0.66138405, z: -0.75004745, w: -0.00000003352761}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: nvhai_rig_HIK:HairA_2_R
+      parentName: nvhai_rig_HIK:HairA_1_R
+      position: {x: -0.005584775, y: 2.842171e-16, z: -4.3115873e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1011083, y: 0.05711135, z: 0.04404068}
+      rotation: {x: -0.0000014305347, y: -0.0000014304875, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: nvhai_rig_HIK:EyeEnd_L
+      parentName: nvhai_rig_HIK:Eye_L
+      position: {x: -0.019739442, y: -0.000000076293944, z: 0.000000076294086}
+      rotation: {x: 0, y: -0.0000038650583, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1011083, y: 0.05711135, z: -0.04404068}
+      rotation: {x: -0.0000014305347, y: -0.0000014304875, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: nvhai_rig_HIK:EyeEnd_R
+      parentName: nvhai_rig_HIK:Eye_R
+      position: {x: -0.019739442, y: -0.000000076293944, z: -0.000000076294086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hip_L
+      parentName: nvhai_rig_HIK:Root_M
+      position: {x: 0.09045748, y: -0.01249866, z: 0.07374918}
+      rotation: {x: 0.9999145, y: 0.010555476, z: 0.007720679, w: 0.00008234382}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000002}
+    - name: nvhai_rig_HIK:Knee_L
+      parentName: nvhai_rig_HIK:Hip_L
+      position: {x: 0.251649, y: -2.131628e-16, z: 8.5265126e-16}
+      rotation: {x: 0.00000002460001, y: 0.00000003606095, z: 0.004497493, w: 0.99998987}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000006}
+    - name: nvhai_rig_HIK:Ankle_L
+      parentName: nvhai_rig_HIK:Knee_L
+      position: {x: 0.33597228, y: -4.263256e-16, z: -2.309264e-16}
+      rotation: {x: -0.00094483455, y: -0.0077270754, z: 0.0060505946, w: 0.9999514}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000005}
+    - name: nvhai_rig_HIK:Toes_L
+      parentName: nvhai_rig_HIK:Ankle_L
+      position: {x: 0.05215002, y: -0.09608723, z: 6.750156e-15}
+      rotation: {x: 0.00079222454, y: 0.0005986765, z: -0.60284674, w: 0.79785645}
+      scale: {x: 1.0000006, y: 1.0000012, z: 1.0000007}
+    - name: nvhai_rig_HIK:ToesEnd_L
+      parentName: nvhai_rig_HIK:Toes_L
+      position: {x: 0.07857701, y: 7.9936056e-16, z: 0.0000000011828294}
+      rotation: {x: 0.00000012766185, y: 0.000000916961, z: -1.1706094e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hip_R
+      parentName: nvhai_rig_HIK:Root_M
+      position: {x: 0.09045748, y: -0.01249866, z: -0.07374918}
+      rotation: {x: -0.010555401, y: 0.9999145, z: 0.00008234382, w: -0.007720679}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: nvhai_rig_HIK:Knee_R
+      parentName: nvhai_rig_HIK:Hip_R
+      position: {x: -0.251649, y: 3.552714e-16, z: -7.9936056e-16}
+      rotation: {x: 0.000000055289995, y: 0.000000006519257, z: 0.0044974186, w: 0.99998987}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: nvhai_rig_HIK:Ankle_R
+      parentName: nvhai_rig_HIK:Knee_R
+      position: {x: -0.33597228, y: 2.415845e-15, z: 9.7699626e-17}
+      rotation: {x: -0.00094486435, y: -0.0077270456, z: 0.006050595, w: 0.9999514}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: nvhai_rig_HIK:Toes_R
+      parentName: nvhai_rig_HIK:Ankle_R
+      position: {x: -0.05215002, y: 0.09608723, z: -6.705747e-15}
+      rotation: {x: 0.00079143106, y: 0.0005980916, z: -0.6028468, w: 0.79785633}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:ToesEnd_R
+      parentName: nvhai_rig_HIK:Toes_R
+      position: {x: -0.07857701, y: -3.6779468e-14, z: 0.00000014012812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Geometry
+      parentName: winter_Char00(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Ch46
+      parentName: nvhai_rig_HIK:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HDJ
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hair
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Body
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Xiezi_L
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Xiezi_R
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_LL
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_RR
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Brow
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:EyeLash
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

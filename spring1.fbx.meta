@@ -1,0 +1,4149 @@
+fileFormatVersion: 2
+guid: 9aa5598ebe0fdcb4087c30e7d08dfa14
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'nvhai_rig_HIK:Elbow_R' has translation
+      animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_R' has translation
+      animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_R'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:Wrist_R'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:Elbow_L'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_L'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_L'
+      has translation animation that will be discarded.\n\t'nvhai_rig_HIK:ElbowPart2_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nvhai_rig_HIK:Wrist_L'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1649
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: SceneBegin
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: nvhai_rig_HIK:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Spine2_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger3_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger1_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger2_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger3_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:ThumbFinger3_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:IndexFinger3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger2_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:MiddleFinger3_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger1_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger2_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:RingFinger3_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:PinkyFinger3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nvhai_rig_HIK:Chest_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: spring230215_4(3)(Clone)
+      parentName: 
+      position: {x: -3.410605e-15, y: 0.8057289, z: 0.077418104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Group
+      parentName: spring230215_4(3)(Clone)
+      position: {x: 3.410605e-15, y: -0.8057289, z: -0.077418104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MainExtra2
+      parentName: nvhai_rig_HIK:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MainExtra1
+      parentName: nvhai_rig_HIK:MainExtra2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Main
+      parentName: nvhai_rig_HIK:MainExtra1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 5.089962e-17, y: 0.98768836, z: -5.089962e-17, w: -0.15643446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MotionSystem
+      parentName: nvhai_rig_HIK:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKSystem
+      parentName: nvhai_rig_HIK:MotionSystem
+      position: {x: -0.08866594, y: 0.024912331, z: 0.46673536}
+      rotation: {x: 0.012140381, y: 0.94975215, z: -0.27963725, w: 0.14009447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKParentConstraintToChest_M
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: -0.009161955, y: 0.9782079, z: -0.007789416}
+      rotation: {x: 0.48185256, y: -0.5241043, z: -0.39067885, w: 0.5835263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetNeck_M
+      parentName: nvhai_rig_HIK:FKParentConstraintToChest_M
+      position: {x: -0.13034047, y: -1.7763568e-17, z: 4.1943356e-16}
+      rotation: {x: 0, y: -0, z: -0.21478434, w: 0.9766615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraNeck_M
+      parentName: nvhai_rig_HIK:FKOffsetNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKNeck_M
+      parentName: nvhai_rig_HIK:FKExtraNeck_M
+      position: {x: -0.0000002724557, y: 0.0000000176986, z: -0.000000021500458}
+      rotation: {x: -0.003963513, y: 0.0008982114, z: 0.15281941, w: 0.9882458}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXNeck_M
+      parentName: nvhai_rig_HIK:FKNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHead_M
+      parentName: nvhai_rig_HIK:FKXNeck_M
+      position: {x: -0.057051368, y: -2.131628e-16, z: 3.299192e-17}
+      rotation: {x: 0, y: 0, z: 0.16170092, w: 0.98683983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKGlobalStaticHead_M
+      parentName: nvhai_rig_HIK:FKOffsetHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKGlobalHead_M
+      parentName: nvhai_rig_HIK:FKGlobalStaticHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHead_M
+      parentName: nvhai_rig_HIK:FKGlobalHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHead_M
+      parentName: nvhai_rig_HIK:FKExtraHead_M
+      position: {x: -0.00000006579734, y: 0.000000020059298, z: -0.00000001987625}
+      rotation: {x: -0.05193618, y: -0.0030530114, z: 0.3089042, w: 0.9496692}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHead_M
+      parentName: nvhai_rig_HIK:FKHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_1_R_R
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: -0.26363578, y: -0.048120465, z: -0.013407497}
+      rotation: {x: 0.91621935, y: 0.15855679, z: 0.25507823, w: -0.2652111}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_1_R_R
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_1_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_1_R_R
+      parentName: nvhai_rig_HIK:FKExtraHDJ_1_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_1_R_R
+      parentName: nvhai_rig_HIK:FKHDJ_1_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_2_R_R
+      parentName: nvhai_rig_HIK:FKXHDJ_1_R_R
+      position: {x: -0.016801199, y: 9.237056e-16, z: 7.1054265e-17}
+      rotation: {x: 0.002651521, y: 0.030946162, z: -0.08532777, w: 0.99586874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_2_R_R
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_2_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_2_R_R
+      parentName: nvhai_rig_HIK:FKExtraHDJ_2_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_2_R_R
+      parentName: nvhai_rig_HIK:FKHDJ_2_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_3_R_R
+      parentName: nvhai_rig_HIK:FKXHDJ_2_R_R
+      position: {x: -0.016801199, y: -2.842171e-16, z: -1.776357e-16}
+      rotation: {x: -0.014781319, y: 0.101444386, z: -0.14342637, w: 0.9843371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_3_R_R
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_3_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_3_R_R
+      parentName: nvhai_rig_HIK:FKExtraHDJ_3_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_3_R_R
+      parentName: nvhai_rig_HIK:FKHDJ_3_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_4_R_R
+      parentName: nvhai_rig_HIK:FKXHDJ_3_R_R
+      position: {x: -0.016801199, y: -1.1368679e-15, z: -3.552714e-16}
+      rotation: {x: 0, y: -0, z: -0.18882622, w: 0.98201054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_4_R_R
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_4_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_4_R_R
+      parentName: nvhai_rig_HIK:FKExtraHDJ_4_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_4_R_R
+      parentName: nvhai_rig_HIK:FKHDJ_4_R_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_1_R
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: -0.14349324, y: 0.021420104, z: -0.10955538}
+      rotation: {x: -0.005902423, y: -0.17228614, z: 0.9841405, w: -0.041835178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_1_R
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_1_R
+      parentName: nvhai_rig_HIK:FKExtraHair_side_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_1_R
+      parentName: nvhai_rig_HIK:FKHair_side_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_2_R
+      parentName: nvhai_rig_HIK:FKXHair_side_1_R
+      position: {x: -0.048250843, y: -1.776357e-17, z: 7.1054265e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_2_R
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_2_R
+      parentName: nvhai_rig_HIK:FKExtraHair_side_2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_2_R
+      parentName: nvhai_rig_HIK:FKHair_side_2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_3_R
+      parentName: nvhai_rig_HIK:FKXHair_side_2_R
+      position: {x: -0.048250843, y: 2.309264e-16, z: 3.552714e-17}
+      rotation: {x: 0, y: 0, z: 0.07722454, w: 0.99701375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_3_R
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_3_R
+      parentName: nvhai_rig_HIK:FKExtraHair_side_3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_3_R
+      parentName: nvhai_rig_HIK:FKHair_side_3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_4_R
+      parentName: nvhai_rig_HIK:FKXHair_side_3_R
+      position: {x: -0.048250843, y: 1.065814e-16, z: -2.309264e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_4_R
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_4_R
+      parentName: nvhai_rig_HIK:FKExtraHair_side_4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_4_R
+      parentName: nvhai_rig_HIK:FKHair_side_4_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHairA_1_R
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: 0.046618953, y: 0.01418213, z: -0.14528717}
+      rotation: {x: 4.049809e-17, y: 0.66138405, z: 0.75004745, w: 4.5927162e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHairA_1_R
+      parentName: nvhai_rig_HIK:FKOffsetHairA_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHairA_1_R
+      parentName: nvhai_rig_HIK:FKExtraHairA_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHairA_1_R
+      parentName: nvhai_rig_HIK:FKHairA_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHairB_1_R
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: 0.037196346, y: -0.12690663, z: -0.1363185}
+      rotation: {x: 5.130926e-17, y: 0.8379438, z: 0.5457565, w: 3.3417948e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHairB_1_R
+      parentName: nvhai_rig_HIK:FKOffsetHairB_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHairB_1_R
+      parentName: nvhai_rig_HIK:FKExtraHairB_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHairB_1_R
+      parentName: nvhai_rig_HIK:FKHairB_1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHairC_1_M
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: 0.020113826, y: -0.21741596, z: 4.3409228e-17}
+      rotation: {x: 6.123041e-17, y: 0.9999685, z: 0.007932051, w: 4.85698e-19}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHairC_1_M
+      parentName: nvhai_rig_HIK:FKOffsetHairC_1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHairC_1_M
+      parentName: nvhai_rig_HIK:FKExtraHairC_1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHairC_1_M
+      parentName: nvhai_rig_HIK:FKHairC_1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_1_L_L
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: -0.2633168, y: -0.049070578, z: 0.0139951}
+      rotation: {x: 0.8817738, y: 0.19504634, z: -0.39301485, w: 0.17312181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_1_L_L
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_1_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_1_L_L
+      parentName: nvhai_rig_HIK:FKExtraHDJ_1_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_1_L_L
+      parentName: nvhai_rig_HIK:FKHDJ_1_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_2_L_L
+      parentName: nvhai_rig_HIK:FKXHDJ_1_L_L
+      position: {x: -0.01723911, y: 2.273737e-15, z: -7.1054265e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_2_L_L
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_2_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_2_L_L
+      parentName: nvhai_rig_HIK:FKExtraHDJ_2_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_2_L_L
+      parentName: nvhai_rig_HIK:FKHDJ_2_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_3_L_L
+      parentName: nvhai_rig_HIK:FKXHDJ_2_L_L
+      position: {x: -0.01723911, y: -1.2789771e-15, z: 1.1368679e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_3_L_L
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_3_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_3_L_L
+      parentName: nvhai_rig_HIK:FKExtraHDJ_3_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_3_L_L
+      parentName: nvhai_rig_HIK:FKHDJ_3_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHDJ_4_L_L
+      parentName: nvhai_rig_HIK:FKXHDJ_3_L_L
+      position: {x: -0.01723911, y: 2.1316279e-15, z: -7.1054264e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHDJ_4_L_L
+      parentName: nvhai_rig_HIK:FKOffsetHDJ_4_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHDJ_4_L_L
+      parentName: nvhai_rig_HIK:FKExtraHDJ_4_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHDJ_4_L_L
+      parentName: nvhai_rig_HIK:FKHDJ_4_L_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_1_L
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: -0.14349324, y: 0.021420104, z: 0.10955538}
+      rotation: {x: -0.17228615, y: 0.0059024226, z: 0.04183518, w: 0.98414046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_1_L
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_1_L
+      parentName: nvhai_rig_HIK:FKExtraHair_side_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_1_L
+      parentName: nvhai_rig_HIK:FKHair_side_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_2_L
+      parentName: nvhai_rig_HIK:FKXHair_side_1_L
+      position: {x: 0.048250843, y: 0, z: -2.131628e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_2_L
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_2_L
+      parentName: nvhai_rig_HIK:FKExtraHair_side_2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_2_L
+      parentName: nvhai_rig_HIK:FKHair_side_2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_3_L
+      parentName: nvhai_rig_HIK:FKXHair_side_2_L
+      position: {x: 0.048250843, y: -7.1054265e-17, z: 5.3290707e-17}
+      rotation: {x: 0, y: 0, z: 0.07722454, w: 0.99701375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_3_L
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_3_L
+      parentName: nvhai_rig_HIK:FKExtraHair_side_3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_3_L
+      parentName: nvhai_rig_HIK:FKHair_side_3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHair_side_4_L
+      parentName: nvhai_rig_HIK:FKXHair_side_3_L
+      position: {x: 0.048250843, y: -2.842171e-16, z: 1.776357e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHair_side_4_L
+      parentName: nvhai_rig_HIK:FKOffsetHair_side_4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHair_side_4_L
+      parentName: nvhai_rig_HIK:FKExtraHair_side_4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHair_side_4_L
+      parentName: nvhai_rig_HIK:FKHair_side_4_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHairA_1_L
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: 0.046618953, y: 0.01418213, z: 0.14528717}
+      rotation: {x: 0.66138405, y: -0, z: -0, w: 0.75004745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHairA_1_L
+      parentName: nvhai_rig_HIK:FKOffsetHairA_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHairA_1_L
+      parentName: nvhai_rig_HIK:FKExtraHairA_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHairA_1_L
+      parentName: nvhai_rig_HIK:FKHairA_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHairB_1_L
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: 0.037196346, y: -0.12690663, z: 0.1363185}
+      rotation: {x: 0.8379438, y: 0, z: 0, w: 0.5457565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHairB_1_L
+      parentName: nvhai_rig_HIK:FKOffsetHairB_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHairB_1_L
+      parentName: nvhai_rig_HIK:FKExtraHairB_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHairB_1_L
+      parentName: nvhai_rig_HIK:FKHairB_1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKAimEye_R
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: -0.10110825, y: 0.05711135, z: -0.04404068}
+      rotation: {x: 0, y: -1.8368459e-16, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetEye_R
+      parentName: nvhai_rig_HIK:FKAimEye_R
+      position: {x: 8.881784e-18, y: 0, z: -8.881784e-18}
+      rotation: {x: 0, y: 0.0000019325291, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraEye_R
+      parentName: nvhai_rig_HIK:FKOffsetEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKEye_R
+      parentName: nvhai_rig_HIK:FKExtraEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXEye_R
+      parentName: nvhai_rig_HIK:FKEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKAimEye_L
+      parentName: nvhai_rig_HIK:FKXHead_M
+      position: {x: -0.10110825, y: 0.05711135, z: 0.04404068}
+      rotation: {x: -4.3578823e-33, y: 7.3473815e-17, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetEye_L
+      parentName: nvhai_rig_HIK:FKAimEye_L
+      position: {x: 8.881784e-18, y: 0, z: -8.881784e-18}
+      rotation: {x: 0, y: 0.0000019325291, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraEye_L
+      parentName: nvhai_rig_HIK:FKOffsetEye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKEye_L
+      parentName: nvhai_rig_HIK:FKExtraEye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXEye_L
+      parentName: nvhai_rig_HIK:FKEye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Ctrl
+      parentName: nvhai_rig_HIK:FKHead_M
+      position: {x: 1.1624539, y: -0.0041435095, z: -5.094477e-16}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Facial_Ctrl_GrpB
+      parentName: nvhai_rig_HIK:Ctrl
+      position: {x: 0.06737047, y: 0.15548092, z: -1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Smile_Ctrl_Grp
+      parentName: nvhai_rig_HIK:Facial_Ctrl_GrpB
+      position: {x: 0.23062682, y: 1.0382375, z: 1.0831076e-17}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 5.876602, y: 5.876602, z: 5.876602}
+    - name: nvhai_rig_HIK:Smile_Ctrl
+      parentName: nvhai_rig_HIK:Smile_Ctrl_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetScapula_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToChest_M
+      position: {x: -0.09161922, y: 0.014393758, z: -0.02095511}
+      rotation: {x: -0.13768923, y: -0.7221834, z: 0.055119608, w: 0.6756143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraScapula_R
+      parentName: nvhai_rig_HIK:FKOffsetScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKScapula_R
+      parentName: nvhai_rig_HIK:FKExtraScapula_R
+      position: {x: 0.000000003928928, y: 0.0000000193247, z: -0.00000004662119}
+      rotation: {x: 0.03524711, y: -0.041097783, z: 0.015230122, w: 0.9984171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXScapula_R
+      parentName: nvhai_rig_HIK:FKScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetScapula_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToChest_M
+      position: {x: -0.09161922, y: 0.014393758, z: 0.02095511}
+      rotation: {x: 0.7221834, y: -0.13768923, z: 0.6756143, w: -0.055119608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraScapula_L
+      parentName: nvhai_rig_HIK:FKOffsetScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKScapula_L
+      parentName: nvhai_rig_HIK:FKExtraScapula_L
+      position: {x: -0.0000000066355947, y: 0.000000007191193, z: -0.00000001747771}
+      rotation: {x: -0.048354756, y: 0.0839908, z: -0.08528852, w: 0.9916316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXScapula_L
+      parentName: nvhai_rig_HIK:FKScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKParentConstraintToWrist_R
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: -0.01727192, y: 1.2410209, z: 0.25243348}
+      rotation: {x: 0.30631205, y: 0.27063563, z: -0.6725725, w: 0.616908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetMiddleFinger1_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_R
+      position: {x: -0.06944029, y: -1.8651746e-16, z: 5.968559e-15}
+      rotation: {x: 0.003700831, y: -0.071795106, z: 0.059569776, w: 0.99563205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKMiddleFinger1_R
+      parentName: nvhai_rig_HIK:FKOffsetMiddleFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraMiddleFinger1_R
+      parentName: nvhai_rig_HIK:SDKFKMiddleFinger1_R
+      position: {x: -0, y: -2.7755575e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKMiddleFinger1_R
+      parentName: nvhai_rig_HIK:FKExtraMiddleFinger1_R
+      position: {x: 0.00000001225191, y: -0.000000001441126, z: 0.000000021159849}
+      rotation: {x: 0.000000019309022, y: 0.000000014107007, z: -0.000000002644717, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXMiddleFinger1_R
+      parentName: nvhai_rig_HIK:FKMiddleFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetMiddleFinger2_R
+      parentName: nvhai_rig_HIK:FKXMiddleFinger1_R
+      position: {x: -0.039667416, y: -2.0344837e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00031912146, y: -0.00552676, z: 0.000010368202, w: 0.9999847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKMiddleFinger2_R
+      parentName: nvhai_rig_HIK:FKOffsetMiddleFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraMiddleFinger2_R
+      parentName: nvhai_rig_HIK:SDKFKMiddleFinger2_R
+      position: {x: -7.105427e-17, y: 5.551115e-19, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKMiddleFinger2_R
+      parentName: nvhai_rig_HIK:FKExtraMiddleFinger2_R
+      position: {x: -0.00000003597062, y: -0.000000008101524, z: -0.00000006502747}
+      rotation: {x: 0.0000000027871618, y: -2.0068797e-11, z: -0.0000000027980858, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXMiddleFinger2_R
+      parentName: nvhai_rig_HIK:FKMiddleFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetMiddleFinger3_R
+      parentName: nvhai_rig_HIK:FKXMiddleFinger2_R
+      position: {x: -0.028862301, y: -2.7200463e-17, z: -7.105427e-16}
+      rotation: {x: 0.00046574936, y: 0.002230607, z: -0.00000018968676, w: 0.99999744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKMiddleFinger3_R
+      parentName: nvhai_rig_HIK:FKOffsetMiddleFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraMiddleFinger3_R
+      parentName: nvhai_rig_HIK:SDKFKMiddleFinger3_R
+      position: {x: -7.105427e-17, y: -5.551115e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKMiddleFinger3_R
+      parentName: nvhai_rig_HIK:FKExtraMiddleFinger3_R
+      position: {x: 0.00000003245179, y: -0.0000000131684, z: 0.000000039302748}
+      rotation: {x: 0.0000000027996172, y: -2.2668378e-11, z: -0.000000002785604, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXMiddleFinger3_R
+      parentName: nvhai_rig_HIK:FKMiddleFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetThumbFinger1_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_R
+      position: {x: -0.015187066, y: 0.013787364, z: -0.008821898}
+      rotation: {x: -0.40467057, y: -0.035075698, z: -0.44359115, w: 0.7988982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraThumbFinger1_R
+      parentName: nvhai_rig_HIK:FKOffsetThumbFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKThumbFinger1_R
+      parentName: nvhai_rig_HIK:FKExtraThumbFinger1_R
+      position: {x: 0.00000001174426, y: -0.000000008417808, z: 0.00000001423925}
+      rotation: {x: -0.000000004240171, y: 0.000000092546784, z: -0.00000008517778, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXThumbFinger1_R
+      parentName: nvhai_rig_HIK:FKThumbFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetThumbFinger2_R
+      parentName: nvhai_rig_HIK:FKXThumbFinger1_R
+      position: {x: -0.028097302, y: 2.5579537e-15, z: -1.6342482e-15}
+      rotation: {x: 0.00025527002, y: -0.14796145, z: 0.12626015, w: 0.98090047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKThumbFinger2_R
+      parentName: nvhai_rig_HIK:FKOffsetThumbFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraThumbFinger2_R
+      parentName: nvhai_rig_HIK:SDKFKThumbFinger2_R
+      position: {x: -1.5987211e-16, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKThumbFinger2_R
+      parentName: nvhai_rig_HIK:FKExtraThumbFinger2_R
+      position: {x: -0.000000022859581, y: 0.000000029713318, z: -0.00000002977315}
+      rotation: {x: 0.0000000055550817, y: 0.00000003965194, z: 0.00000004214122, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXThumbFinger2_R
+      parentName: nvhai_rig_HIK:FKThumbFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetThumbFinger3_R
+      parentName: nvhai_rig_HIK:FKXThumbFinger2_R
+      position: {x: -0.029912293, y: 8.5265126e-16, z: 4.973799e-16}
+      rotation: {x: 0.0000000023189635, y: -0.00000007222151, z: 0.032092504, w: 0.99948496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKThumbFinger3_R
+      parentName: nvhai_rig_HIK:FKOffsetThumbFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraThumbFinger3_R
+      parentName: nvhai_rig_HIK:SDKFKThumbFinger3_R
+      position: {x: -7.105427e-17, y: -1.4210854e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKThumbFinger3_R
+      parentName: nvhai_rig_HIK:FKExtraThumbFinger3_R
+      position: {x: -0.00000002397938, y: -0.000000009682809, z: -8.7905544e-10}
+      rotation: {x: -0.000000052249057, y: -0.000000021508983, z: -0.0000000032917706, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXThumbFinger3_R
+      parentName: nvhai_rig_HIK:FKThumbFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetIndexFinger1_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_R
+      position: {x: -0.07066033, y: 0.017725775, z: -0.002740851}
+      rotation: {x: 0.0068930914, y: -0.07453444, z: 0.024321182, w: 0.996898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKIndexFinger1_R
+      parentName: nvhai_rig_HIK:FKOffsetIndexFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraIndexFinger1_R
+      parentName: nvhai_rig_HIK:SDKFKIndexFinger1_R
+      position: {x: -0, y: -6.661338e-18, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIndexFinger1_R
+      parentName: nvhai_rig_HIK:FKExtraIndexFinger1_R
+      position: {x: -0.000000005356549, y: -0.00000002156798, z: -0.00000003706116}
+      rotation: {x: 0.000000016439257, y: 0.000000001058269, z: -8.135919e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXIndexFinger1_R
+      parentName: nvhai_rig_HIK:FKIndexFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetIndexFinger2_R
+      parentName: nvhai_rig_HIK:FKXIndexFinger1_R
+      position: {x: -0.031714138, y: -8.8817837e-17, z: -1.4210854e-16}
+      rotation: {x: -1.189584e-15, y: 0.007455808, z: -0.0005252486, w: 0.9999721}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKIndexFinger2_R
+      parentName: nvhai_rig_HIK:FKOffsetIndexFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraIndexFinger2_R
+      parentName: nvhai_rig_HIK:SDKFKIndexFinger2_R
+      position: {x: -1.4210854e-16, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIndexFinger2_R
+      parentName: nvhai_rig_HIK:FKExtraIndexFinger2_R
+      position: {x: -0.000000002609865, y: -1.196555e-10, z: 0.000000031296498}
+      rotation: {x: -0.000000044850506, y: 0.00000049767175, z: -0.00000027305796, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXIndexFinger2_R
+      parentName: nvhai_rig_HIK:FKIndexFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetIndexFinger3_R
+      parentName: nvhai_rig_HIK:FKXIndexFinger2_R
+      position: {x: -0.023696886, y: -2.0428103e-16, z: -1.9895197e-15}
+      rotation: {x: -0.014277803, y: 0.004363914, z: 0.000012480308, w: 0.99988854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKIndexFinger3_R
+      parentName: nvhai_rig_HIK:FKOffsetIndexFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraIndexFinger3_R
+      parentName: nvhai_rig_HIK:SDKFKIndexFinger3_R
+      position: {x: -0, y: 8.881784e-18, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIndexFinger3_R
+      parentName: nvhai_rig_HIK:FKExtraIndexFinger3_R
+      position: {x: 0.00000002027552, y: 0.000000008364955, z: -0.000000022096218}
+      rotation: {x: -0.0000000028126688, y: -1.849687e-10, z: 2.5401486e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXIndexFinger3_R
+      parentName: nvhai_rig_HIK:FKIndexFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetCup_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_R
+      position: {x: -0.024717305, y: -0.012881931, z: -0.0000053041013}
+      rotation: {x: -0.00006046397, y: 0.0013318387, z: -0.045352124, w: 0.9989702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKCup_R
+      parentName: nvhai_rig_HIK:FKOffsetCup_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraCup_R
+      parentName: nvhai_rig_HIK:SDKFKCup_R
+      position: {x: -0, y: -3.5527136e-17, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKCup_R
+      parentName: nvhai_rig_HIK:FKExtraCup_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXCup_R
+      parentName: nvhai_rig_HIK:FKCup_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetPinkyFinger1_R
+      parentName: nvhai_rig_HIK:FKXCup_R
+      position: {x: -0.03191431, y: -0.023264648, z: -0.0032684165}
+      rotation: {x: -0.007953003, y: -0.049099434, z: 0.15997322, w: 0.98586744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKPinkyFinger1_R
+      parentName: nvhai_rig_HIK:FKOffsetPinkyFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraPinkyFinger1_R
+      parentName: nvhai_rig_HIK:SDKFKPinkyFinger1_R
+      position: {x: -7.105427e-17, y: 4.440892e-18, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKPinkyFinger1_R
+      parentName: nvhai_rig_HIK:FKExtraPinkyFinger1_R
+      position: {x: -0.00000002930158, y: -0.00000001475902, z: 0.000000007442387}
+      rotation: {x: -0.000000021943658, y: 0.000000006598592, z: -0.00000013383543, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXPinkyFinger1_R
+      parentName: nvhai_rig_HIK:FKPinkyFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetPinkyFinger2_R
+      parentName: nvhai_rig_HIK:FKXPinkyFinger1_R
+      position: {x: -0.027820164, y: -1.0880185e-16, z: -2.5579537e-15}
+      rotation: {x: 0.0023081633, y: -0.0058542434, z: 0.0020052355, w: 0.99997824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKPinkyFinger2_R
+      parentName: nvhai_rig_HIK:FKOffsetPinkyFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraPinkyFinger2_R
+      parentName: nvhai_rig_HIK:SDKFKPinkyFinger2_R
+      position: {x: 7.105427e-17, y: -4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKPinkyFinger2_R
+      parentName: nvhai_rig_HIK:FKExtraPinkyFinger2_R
+      position: {x: -0.00000003298338, y: -0.000000001606145, z: 0.000000007450872}
+      rotation: {x: -5.280719e-10, y: -0.000000007696351, z: 0.0000000015784853, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXPinkyFinger2_R
+      parentName: nvhai_rig_HIK:FKPinkyFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetPinkyFinger3_R
+      parentName: nvhai_rig_HIK:FKXPinkyFinger2_R
+      position: {x: -0.019872848, y: 5.3290704e-17, z: -1.847411e-15}
+      rotation: {x: 0.018637639, y: 0.0042175935, z: 0.00010281517, w: 0.99981743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKPinkyFinger3_R
+      parentName: nvhai_rig_HIK:FKOffsetPinkyFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraPinkyFinger3_R
+      parentName: nvhai_rig_HIK:SDKFKPinkyFinger3_R
+      position: {x: 7.105427e-17, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKPinkyFinger3_R
+      parentName: nvhai_rig_HIK:FKExtraPinkyFinger3_R
+      position: {x: -0.000000003303708, y: -0.00000001526036, z: -0.00000004902156}
+      rotation: {x: 0.0000000016819451, y: -0.00000002220359, z: 0.00000000401698, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXPinkyFinger3_R
+      parentName: nvhai_rig_HIK:FKPinkyFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRingFinger1_R
+      parentName: nvhai_rig_HIK:FKXCup_R
+      position: {x: -0.03933439, y: -0.008776559, z: 0.0001139461}
+      rotation: {x: 0.0024229586, y: -0.054875854, z: 0.13659869, w: 0.9891024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKRingFinger1_R
+      parentName: nvhai_rig_HIK:FKOffsetRingFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRingFinger1_R
+      parentName: nvhai_rig_HIK:SDKFKRingFinger1_R
+      position: {x: 7.105427e-17, y: -4.440892e-18, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRingFinger1_R
+      parentName: nvhai_rig_HIK:FKExtraRingFinger1_R
+      position: {x: 0.0000000065286505, y: -0.0000000034735879, z: -0.00000003057573}
+      rotation: {x: 1.9657803e-10, y: 0.0000000142568615, z: -0.000000001775752, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRingFinger1_R
+      parentName: nvhai_rig_HIK:FKRingFinger1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRingFinger2_R
+      parentName: nvhai_rig_HIK:FKXRingFinger1_R
+      position: {x: -0.033945758, y: 1.3322676e-16, z: 3.8369305e-15}
+      rotation: {x: -0.0024745897, y: -0.008659141, z: 0.00024897448, w: 0.9999594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKRingFinger2_R
+      parentName: nvhai_rig_HIK:FKOffsetRingFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRingFinger2_R
+      parentName: nvhai_rig_HIK:SDKFKRingFinger2_R
+      position: {x: -7.105427e-17, y: 2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRingFinger2_R
+      parentName: nvhai_rig_HIK:FKExtraRingFinger2_R
+      position: {x: -0.0000000016280021, y: 0.00000001810955, z: 0.000000027549149}
+      rotation: {x: 1.6579904e-10, y: 8.705921e-12, z: -0.0000000017788684, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRingFinger2_R
+      parentName: nvhai_rig_HIK:FKRingFinger2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRingFinger3_R
+      parentName: nvhai_rig_HIK:FKXRingFinger2_R
+      position: {x: -0.024491986, y: 7.771561e-17, z: -8.5265126e-16}
+      rotation: {x: 0.0049369843, y: 0.003160722, z: 0.000006391165, w: 0.99998283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKRingFinger3_R
+      parentName: nvhai_rig_HIK:FKOffsetRingFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRingFinger3_R
+      parentName: nvhai_rig_HIK:SDKFKRingFinger3_R
+      position: {x: 7.105427e-17, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRingFinger3_R
+      parentName: nvhai_rig_HIK:FKExtraRingFinger3_R
+      position: {x: 0.0000000036930168, y: -0.00000001997101, z: -0.00000003950182}
+      rotation: {x: 1.770406e-10, y: -8.855435e-12, z: -0.0000000017777836, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRingFinger3_R
+      parentName: nvhai_rig_HIK:FKRingFinger3_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKParentConstraintToScapula_R
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: -0.0024809719, y: 1.0727749, z: -0.01505787}
+      rotation: {x: 0.10026174, y: 0.7733229, z: 0.6202439, w: -0.0849523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetShoulder_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToScapula_R
+      position: {x: -0.09290388, y: -4.862777e-16, z: 2.842171e-16}
+      rotation: {x: 0.0043774615, y: 0.040313542, z: -0.14617568, w: 0.9884272}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKGlobalStaticShoulder_R
+      parentName: nvhai_rig_HIK:FKOffsetShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKGlobalShoulder_R
+      parentName: nvhai_rig_HIK:FKGlobalStaticShoulder_R
+      position: {x: -1.7763568e-17, y: -4.440892e-18, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraShoulder_R
+      parentName: nvhai_rig_HIK:FKGlobalShoulder_R
+      position: {x: -0, y: 4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKShoulder_R
+      parentName: nvhai_rig_HIK:FKExtraShoulder_R
+      position: {x: 0.000000001829206, y: -0.000000005056921, z: 0.0000000015087499}
+      rotation: {x: 0.35320488, y: -0.38901398, z: -0.61027807, w: 0.59285337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXShoulder_R
+      parentName: nvhai_rig_HIK:FKShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetElbow_R
+      parentName: nvhai_rig_HIK:FKXShoulder_R
+      position: {x: -0.22127339, y: -8.881784e-18, z: -1.918465e-15}
+      rotation: {x: 0, y: -0, z: -0.0033246041, w: 0.9999945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraElbow_R
+      parentName: nvhai_rig_HIK:FKOffsetElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKElbow_R
+      parentName: nvhai_rig_HIK:FKExtraElbow_R
+      position: {x: -0.000000087542254, y: -0.00000002846659, z: -0.000000057456468}
+      rotation: {x: 0.1290475, y: -0.07733113, z: -0.4231826, w: 0.89346695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXElbow_R
+      parentName: nvhai_rig_HIK:FKElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetWrist_R
+      parentName: nvhai_rig_HIK:FKXElbow_R
+      position: {x: -0.18873529, y: 1.696421e-15, z: -2.7000622e-15}
+      rotation: {x: -0.0035068851, y: 0.050098643, z: -0.041187644, w: 0.9978885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraWrist_R
+      parentName: nvhai_rig_HIK:FKOffsetWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKWrist_R
+      parentName: nvhai_rig_HIK:FKExtraWrist_R
+      position: {x: -0.0000001578203, y: -0.00000006234345, z: -0.00000004993626}
+      rotation: {x: 0.7262541, y: 0.27185667, z: -0.02634566, w: 0.6308366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXWrist_R
+      parentName: nvhai_rig_HIK:FKWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKParentConstraintToRoot_M
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: 1.24345e-16, y: 0.7517354, z: 1.4210849e-16}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHip_R
+      parentName: nvhai_rig_HIK:FKParentConstraintToRoot_M
+      position: {x: 0.09045748, y: -0.01249866, z: -0.07374917}
+      rotation: {x: -0.010560728, y: 0.99991447, z: 0.000082399165, w: -0.0077206497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHip_R
+      parentName: nvhai_rig_HIK:FKOffsetHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHip_R
+      parentName: nvhai_rig_HIK:FKExtraHip_R
+      position: {x: 0.1792811, y: 0.1803896, z: -0.1639149}
+      rotation: {x: 0.98708814, y: 0.103241295, z: 0.08112453, w: -0.091744885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHip_R
+      parentName: nvhai_rig_HIK:FKHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetKnee_R
+      parentName: nvhai_rig_HIK:FKXHip_R
+      position: {x: -0.251649, y: 2.5590641e-16, z: -8.881784e-16}
+      rotation: {x: 0, y: 0, z: 0.004506768, w: 0.99998987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraKnee_R
+      parentName: nvhai_rig_HIK:FKOffsetKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKKnee_R
+      parentName: nvhai_rig_HIK:FKExtraKnee_R
+      position: {x: -0.0000036018798, y: -0.0001350196, z: -0.0000032720247}
+      rotation: {x: 0.108304344, y: -0.063524075, z: 0.43408236, w: 0.8920804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXKnee_R
+      parentName: nvhai_rig_HIK:FKKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetAnkle_R
+      parentName: nvhai_rig_HIK:FKXKnee_R
+      position: {x: -0.33597228, y: 1.948719e-15, z: -6.661338e-18}
+      rotation: {x: -0.00094486563, y: -0.0077269473, z: 0.0060465713, w: 0.9999514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraAnkle_R
+      parentName: nvhai_rig_HIK:FKOffsetAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKAnkle_R
+      parentName: nvhai_rig_HIK:FKExtraAnkle_R
+      position: {x: 0.0000001293466, y: -0.00000008626135, z: -0.000000002375294}
+      rotation: {x: -0.025131442, y: 0.17148024, z: -0.12465496, w: 0.9769463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXAnkle_R
+      parentName: nvhai_rig_HIK:FKAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetToes_R
+      parentName: nvhai_rig_HIK:FKXAnkle_R
+      position: {x: -0.052150015, y: 0.09608723, z: -6.750156e-15}
+      rotation: {x: 0.00079151324, y: 0.00059805386, z: -0.6028467, w: 0.79785645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraToes_R
+      parentName: nvhai_rig_HIK:FKOffsetToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKToes_R
+      parentName: nvhai_rig_HIK:FKExtraToes_R
+      position: {x: -0.00000001015992, y: -0.00000004812206, z: -0.000000003787275}
+      rotation: {x: -0.00000012766185, y: 0.000000021953596, z: -9.023092e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXToes_R
+      parentName: nvhai_rig_HIK:FKToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetHip_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToRoot_M
+      position: {x: 0.09045748, y: -0.01249866, z: 0.07374917}
+      rotation: {x: 0.99991447, y: 0.010560728, z: 0.0077206497, w: 0.000082399165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraHip_L
+      parentName: nvhai_rig_HIK:FKOffsetHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKHip_L
+      parentName: nvhai_rig_HIK:FKExtraHip_L
+      position: {x: -0.2157012, y: -0.21109751, z: 0.1167902}
+      rotation: {x: 0.9876322, y: 0.11719272, z: 0.0659728, w: -0.08059816}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXHip_L
+      parentName: nvhai_rig_HIK:FKHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetKnee_L
+      parentName: nvhai_rig_HIK:FKXHip_L
+      position: {x: 0.251649, y: -4.871104e-16, z: 7.505108e-16}
+      rotation: {x: 0, y: 0, z: 0.004506768, w: 0.99998987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraKnee_L
+      parentName: nvhai_rig_HIK:FKOffsetKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKKnee_L
+      parentName: nvhai_rig_HIK:FKExtraKnee_L
+      position: {x: 0.0000032041619, y: 0.0001226415, z: -0.000001203873}
+      rotation: {x: 0.021659646, y: -0.020844026, z: 0.4087962, w: 0.91213053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXKnee_L
+      parentName: nvhai_rig_HIK:FKKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetAnkle_L
+      parentName: nvhai_rig_HIK:FKXKnee_L
+      position: {x: 0.33597228, y: -3.535783e-15, z: -3.0642158e-16}
+      rotation: {x: -0.00094486563, y: -0.0077269473, z: 0.0060465713, w: 0.9999514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraAnkle_L
+      parentName: nvhai_rig_HIK:FKOffsetAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKAnkle_L
+      parentName: nvhai_rig_HIK:FKExtraAnkle_L
+      position: {x: 0.000000082270596, y: -0.00000007101601, z: 0.00000001838885}
+      rotation: {x: 0.10871311, y: 0.12777227, z: 0.011746973, w: 0.98575747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXAnkle_L
+      parentName: nvhai_rig_HIK:FKAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetToes_L
+      parentName: nvhai_rig_HIK:FKXAnkle_L
+      position: {x: 0.052150015, y: -0.09608723, z: 6.750156e-15}
+      rotation: {x: 0.000792259, y: 0.00059861736, z: -0.6028467, w: 0.79785645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraToes_L
+      parentName: nvhai_rig_HIK:FKOffsetToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKToes_L
+      parentName: nvhai_rig_HIK:FKExtraToes_L
+      position: {x: 0.000000004576844, y: 0.000000027171378, z: 0.0000000061980896}
+      rotation: {x: 0.00000012766183, y: 0.0000009024626, z: -0.0000000082529885, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXToes_L
+      parentName: nvhai_rig_HIK:FKToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRoot_M
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: -2.3140731e-18, y: 0.7517354, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRoot_M
+      parentName: nvhai_rig_HIK:FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRoot_M
+      parentName: nvhai_rig_HIK:FKExtraRoot_M
+      position: {x: 7.1054265e-17, y: 1.4210849e-16, z: -1.154632e-16}
+      rotation: {x: -1.1102232e-16, y: -1.1102232e-16, z: 6.2471135e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRoot_M
+      parentName: nvhai_rig_HIK:FKRoot_M
+      position: {x: -7.1054265e-17, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetSpine1_M
+      parentName: nvhai_rig_HIK:FKXRoot_M
+      position: {x: -0.07569036, y: 2.220446e-18, z: -2.085001e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HipSwingerStabilizer
+      parentName: nvhai_rig_HIK:FKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraSpine1_M
+      parentName: nvhai_rig_HIK:HipSwingerStabilizer
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKSpine1_M
+      parentName: nvhai_rig_HIK:FKExtraSpine1_M
+      position: {x: 0.00000001028313, y: -0.000000051912796, z: -0.000000003186534}
+      rotation: {x: 0.002360668, y: 0.01523366, z: 0.012797025, w: 0.9997993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXSpine1_M
+      parentName: nvhai_rig_HIK:FKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetSpine2_M
+      parentName: nvhai_rig_HIK:FKXSpine1_M
+      position: {x: -0.075690374, y: -4.287596e-18, z: 1.132909e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraSpine2_M
+      parentName: nvhai_rig_HIK:FKOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKSpine2_M
+      parentName: nvhai_rig_HIK:FKExtraSpine2_M
+      position: {x: -0.0000000049446376, y: 0.00000002172758, z: -0.00000000361575}
+      rotation: {x: 0.0047203866, y: 0.03046103, z: 0.025589311, w: 0.9991972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXSpine2_M
+      parentName: nvhai_rig_HIK:FKSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetChest_M
+      parentName: nvhai_rig_HIK:FKXSpine2_M
+      position: {x: -0.075690374, y: -9.685415e-18, z: -1.371129e-19}
+      rotation: {x: 0, y: 0, z: 0.05403068, w: 0.99853927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraChest_M
+      parentName: nvhai_rig_HIK:FKOffsetChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKChest_M
+      parentName: nvhai_rig_HIK:FKExtraChest_M
+      position: {x: -0.000000043723958, y: -0.00000002701008, z: -0.000000005921164}
+      rotation: {x: 0.007979572, y: 0.029773835, z: 0.025589243, w: 0.9991972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXChest_M
+      parentName: nvhai_rig_HIK:FKChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HipSwingReverse
+      parentName: nvhai_rig_HIK:FKRoot_M
+      position: {x: -0.07569036, y: 2.220446e-18, z: -2.085001e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HipSwingReverseRoot
+      parentName: nvhai_rig_HIK:HipSwingReverse
+      position: {x: 0.07569036, y: -2.220446e-18, z: 2.085001e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKParentConstraintToWrist_L
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: -0.03025732, y: 1.074546, z: 0.2651429}
+      rotation: {x: 0.46946782, y: 0.15830706, z: -0.0063550784, w: 0.8686187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetMiddleFinger1_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_L
+      position: {x: 0.06944029, y: 5.3290704e-17, z: -7.389644e-15}
+      rotation: {x: 0.003700831, y: -0.071795106, z: 0.059569776, w: 0.99563205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKMiddleFinger1_L
+      parentName: nvhai_rig_HIK:FKOffsetMiddleFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraMiddleFinger1_L
+      parentName: nvhai_rig_HIK:SDKFKMiddleFinger1_L
+      position: {x: 7.105427e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKMiddleFinger1_L
+      parentName: nvhai_rig_HIK:FKExtraMiddleFinger1_L
+      position: {x: 0.000000006763148, y: 0.0000000056023866, z: 0.0000000361761}
+      rotation: {x: -6.5759775e-10, y: 0.000000012629072, z: -0.000000043106553, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXMiddleFinger1_L
+      parentName: nvhai_rig_HIK:FKMiddleFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetMiddleFinger2_L
+      parentName: nvhai_rig_HIK:FKXMiddleFinger1_L
+      position: {x: 0.039667416, y: 1.9984014e-16, z: 4.2632563e-16}
+      rotation: {x: 0.00031912146, y: -0.00552676, z: 0.000010368202, w: 0.9999847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKMiddleFinger2_L
+      parentName: nvhai_rig_HIK:FKOffsetMiddleFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraMiddleFinger2_L
+      parentName: nvhai_rig_HIK:SDKFKMiddleFinger2_L
+      position: {x: -7.105427e-17, y: -1.110223e-18, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKMiddleFinger2_L
+      parentName: nvhai_rig_HIK:FKExtraMiddleFinger2_L
+      position: {x: 0.00000002986645, y: -0.000000003235261, z: 0.000000006607453}
+      rotation: {x: -6.575584e-10, y: 1.6209261e-14, z: 7.268559e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXMiddleFinger2_L
+      parentName: nvhai_rig_HIK:FKMiddleFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetMiddleFinger3_L
+      parentName: nvhai_rig_HIK:FKXMiddleFinger2_L
+      position: {x: 0.028862301, y: -1.3322676e-17, z: 4.263256e-15}
+      rotation: {x: 0.00046574936, y: 0.002230607, z: -0.00000018968676, w: 0.99999744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKMiddleFinger3_L
+      parentName: nvhai_rig_HIK:FKOffsetMiddleFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraMiddleFinger3_L
+      parentName: nvhai_rig_HIK:SDKFKMiddleFinger3_L
+      position: {x: 7.105427e-17, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKMiddleFinger3_L
+      parentName: nvhai_rig_HIK:FKExtraMiddleFinger3_L
+      position: {x: 0.000000009999168, y: 0.000000008651376, z: -0.000000002298469}
+      rotation: {x: -6.575841e-10, y: 2.1423837e-14, z: 4.3350722e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXMiddleFinger3_L
+      parentName: nvhai_rig_HIK:FKMiddleFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetThumbFinger1_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_L
+      position: {x: 0.015187066, y: -0.013787364, z: 0.008821898}
+      rotation: {x: -0.40467057, y: -0.035075698, z: -0.44359115, w: 0.7988982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraThumbFinger1_L
+      parentName: nvhai_rig_HIK:FKOffsetThumbFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKThumbFinger1_L
+      parentName: nvhai_rig_HIK:FKExtraThumbFinger1_L
+      position: {x: 6.577352e-12, y: -0.00000002647476, z: 0.00000003091013}
+      rotation: {x: -2.2204463e-16, y: 5.689893e-16, z: 5.5511148e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXThumbFinger1_L
+      parentName: nvhai_rig_HIK:FKThumbFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetThumbFinger2_L
+      parentName: nvhai_rig_HIK:FKXThumbFinger1_L
+      position: {x: 0.028097302, y: -3.5527137e-15, z: 2.4158453e-15}
+      rotation: {x: 0.00025527002, y: -0.14796145, z: 0.12626015, w: 0.98090047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKThumbFinger2_L
+      parentName: nvhai_rig_HIK:FKOffsetThumbFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraThumbFinger2_L
+      parentName: nvhai_rig_HIK:SDKFKThumbFinger2_L
+      position: {x: 7.105427e-17, y: -1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKThumbFinger2_L
+      parentName: nvhai_rig_HIK:FKExtraThumbFinger2_L
+      position: {x: 0.00000001600673, y: 0.000000014242129, z: 0.000000009157663}
+      rotation: {x: -0.0000000103655715, y: -0.000000002883573, z: 0.000000017587203, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXThumbFinger2_L
+      parentName: nvhai_rig_HIK:FKThumbFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetThumbFinger3_L
+      parentName: nvhai_rig_HIK:FKXThumbFinger2_L
+      position: {x: 0.029912293, y: -1.847411e-15, z: -2.0605739e-15}
+      rotation: {x: 0.0000000023189635, y: -0.00000007222151, z: 0.032092504, w: 0.99948496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKThumbFinger3_L
+      parentName: nvhai_rig_HIK:FKOffsetThumbFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraThumbFinger3_L
+      parentName: nvhai_rig_HIK:SDKFKThumbFinger3_L
+      position: {x: -3.5527136e-17, y: 0, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKThumbFinger3_L
+      parentName: nvhai_rig_HIK:FKExtraThumbFinger3_L
+      position: {x: 0.000000002249228, y: 0.00000002567282, z: -0.00000002617051}
+      rotation: {x: -0.0000000070611508, y: -0.000000020848464, z: 0.000000009624165, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXThumbFinger3_L
+      parentName: nvhai_rig_HIK:FKThumbFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetIndexFinger1_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_L
+      position: {x: 0.07066033, y: -0.017725775, z: 0.002740851}
+      rotation: {x: 0.0068930914, y: -0.07453444, z: 0.024321182, w: 0.996898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKIndexFinger1_L
+      parentName: nvhai_rig_HIK:FKOffsetIndexFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraIndexFinger1_L
+      parentName: nvhai_rig_HIK:SDKFKIndexFinger1_L
+      position: {x: -0, y: -6.661338e-18, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIndexFinger1_L
+      parentName: nvhai_rig_HIK:FKExtraIndexFinger1_L
+      position: {x: -0.000000005924806, y: 0.0000000221722, z: -0.00000000905542}
+      rotation: {x: -0.0000000014796343, y: 9.0063623e-10, z: -0.000000028725658, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXIndexFinger1_L
+      parentName: nvhai_rig_HIK:FKIndexFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetIndexFinger2_L
+      parentName: nvhai_rig_HIK:FKXIndexFinger1_L
+      position: {x: 0.031714138, y: 9.5479175e-17, z: -2.842171e-16}
+      rotation: {x: -3.5536696e-16, y: 0.007455808, z: -0.0005252486, w: 0.9999721}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKIndexFinger2_L
+      parentName: nvhai_rig_HIK:FKOffsetIndexFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraIndexFinger2_L
+      parentName: nvhai_rig_HIK:SDKFKIndexFinger2_L
+      position: {x: 7.105427e-17, y: 8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIndexFinger2_L
+      parentName: nvhai_rig_HIK:FKExtraIndexFinger2_L
+      position: {x: 0.000000008094713, y: -0.000000002376356, z: 0.00000001550062}
+      rotation: {x: -6.90311e-10, y: -0.00000023992135, z: 0.000000025449737, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXIndexFinger2_L
+      parentName: nvhai_rig_HIK:FKIndexFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetIndexFinger3_L
+      parentName: nvhai_rig_HIK:FKXIndexFinger2_L
+      position: {x: 0.023696886, y: 9.103829e-17, z: 5.2580163e-15}
+      rotation: {x: -0.014277803, y: 0.004363914, z: 0.000012480308, w: 0.99988854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKIndexFinger3_L
+      parentName: nvhai_rig_HIK:FKOffsetIndexFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraIndexFinger3_L
+      parentName: nvhai_rig_HIK:SDKFKIndexFinger3_L
+      position: {x: -1.4210854e-16, y: -8.881784e-18, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIndexFinger3_L
+      parentName: nvhai_rig_HIK:FKExtraIndexFinger3_L
+      position: {x: -0.000000029539288, y: -0.00000001208449, z: -0.00000005037654}
+      rotation: {x: -6.90284e-10, y: 1.0379194e-13, z: -6.024164e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXIndexFinger3_L
+      parentName: nvhai_rig_HIK:FKIndexFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetCup_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToWrist_L
+      position: {x: 0.024717305, y: 0.012881931, z: 0.0000053041013}
+      rotation: {x: -0.00006046397, y: 0.0013318387, z: -0.045352124, w: 0.9989702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKCup_L
+      parentName: nvhai_rig_HIK:FKOffsetCup_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraCup_L
+      parentName: nvhai_rig_HIK:SDKFKCup_L
+      position: {x: -1.4210854e-16, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKCup_L
+      parentName: nvhai_rig_HIK:FKExtraCup_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXCup_L
+      parentName: nvhai_rig_HIK:FKCup_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetPinkyFinger1_L
+      parentName: nvhai_rig_HIK:FKXCup_L
+      position: {x: 0.03191431, y: 0.023264648, z: 0.0032684165}
+      rotation: {x: -0.007953003, y: -0.049099434, z: 0.15997322, w: 0.98586744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKPinkyFinger1_L
+      parentName: nvhai_rig_HIK:FKOffsetPinkyFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraPinkyFinger1_L
+      parentName: nvhai_rig_HIK:SDKFKPinkyFinger1_L
+      position: {x: -7.105427e-17, y: -6.661338e-18, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKPinkyFinger1_L
+      parentName: nvhai_rig_HIK:FKExtraPinkyFinger1_L
+      position: {x: 0.00000001836339, y: 0.000000023191088, z: 0.00000001173292}
+      rotation: {x: -2.7755578e-16, y: 5.5511148e-17, z: -4.926614e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXPinkyFinger1_L
+      parentName: nvhai_rig_HIK:FKPinkyFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetPinkyFinger2_L
+      parentName: nvhai_rig_HIK:FKXPinkyFinger1_L
+      position: {x: 0.027820164, y: -7.771561e-17, z: -1.4210854e-16}
+      rotation: {x: 0.0023081633, y: -0.0058542434, z: 0.0020052355, w: 0.99997824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKPinkyFinger2_L
+      parentName: nvhai_rig_HIK:FKOffsetPinkyFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraPinkyFinger2_L
+      parentName: nvhai_rig_HIK:SDKFKPinkyFinger2_L
+      position: {x: -7.105427e-17, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKPinkyFinger2_L
+      parentName: nvhai_rig_HIK:FKExtraPinkyFinger2_L
+      position: {x: 0.00000001642544, y: -0.00000001553906, z: -0.000000045543068}
+      rotation: {x: -1.1102232e-16, y: 7.979728e-17, z: -4.475587e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXPinkyFinger2_L
+      parentName: nvhai_rig_HIK:FKPinkyFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetPinkyFinger3_L
+      parentName: nvhai_rig_HIK:FKXPinkyFinger2_L
+      position: {x: 0.019872848, y: -2.6645352e-17, z: 3.694822e-15}
+      rotation: {x: 0.018637639, y: 0.0042175935, z: 0.00010281517, w: 0.99981743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKPinkyFinger3_L
+      parentName: nvhai_rig_HIK:FKOffsetPinkyFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraPinkyFinger3_L
+      parentName: nvhai_rig_HIK:SDKFKPinkyFinger3_L
+      position: {x: -7.105427e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKPinkyFinger3_L
+      parentName: nvhai_rig_HIK:FKExtraPinkyFinger3_L
+      position: {x: -0.0000000014594469, y: -0.00000001043588, z: -0.000000005520909}
+      rotation: {x: -1.6653348e-16, y: 6.245004e-17, z: -4.4408926e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXPinkyFinger3_L
+      parentName: nvhai_rig_HIK:FKPinkyFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRingFinger1_L
+      parentName: nvhai_rig_HIK:FKXCup_L
+      position: {x: 0.03933439, y: 0.008776559, z: -0.0001139461}
+      rotation: {x: 0.0024229586, y: -0.054875854, z: 0.13659869, w: 0.9891024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKRingFinger1_L
+      parentName: nvhai_rig_HIK:FKOffsetRingFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRingFinger1_L
+      parentName: nvhai_rig_HIK:SDKFKRingFinger1_L
+      position: {x: -0, y: -6.661338e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRingFinger1_L
+      parentName: nvhai_rig_HIK:FKExtraRingFinger1_L
+      position: {x: 0.000000004369976, y: 0.00000002452275, z: -0.000000009118442}
+      rotation: {x: -1.1763071e-10, y: 0.0000000010822988, z: -0.000000028757231, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRingFinger1_L
+      parentName: nvhai_rig_HIK:FKRingFinger1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRingFinger2_L
+      parentName: nvhai_rig_HIK:FKXRingFinger1_L
+      position: {x: 0.033945758, y: -2.264855e-16, z: -1.563194e-15}
+      rotation: {x: -0.0024745897, y: -0.008659141, z: 0.00024897448, w: 0.9999594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKRingFinger2_L
+      parentName: nvhai_rig_HIK:FKOffsetRingFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRingFinger2_L
+      parentName: nvhai_rig_HIK:SDKFKRingFinger2_L
+      position: {x: -1.4210854e-16, y: -6.661338e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRingFinger2_L
+      parentName: nvhai_rig_HIK:FKExtraRingFinger2_L
+      position: {x: 0.0000000025974178, y: -0.000000008652171, z: 0.000000006993907}
+      rotation: {x: -1.1702773e-10, y: 0.0000000010823389, z: 7.388758e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRingFinger2_L
+      parentName: nvhai_rig_HIK:FKRingFinger2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetRingFinger3_L
+      parentName: nvhai_rig_HIK:FKXRingFinger2_L
+      position: {x: 0.024491986, y: -2.553513e-16, z: -1.847411e-15}
+      rotation: {x: 0.0049369843, y: 0.003160722, z: 0.000006391165, w: 0.99998283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:SDKFKRingFinger3_L
+      parentName: nvhai_rig_HIK:FKOffsetRingFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraRingFinger3_L
+      parentName: nvhai_rig_HIK:SDKFKRingFinger3_L
+      position: {x: -7.105427e-17, y: 8.881784e-18, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKRingFinger3_L
+      parentName: nvhai_rig_HIK:FKExtraRingFinger3_L
+      position: {x: 0.0000000042260977, y: 0.000000008483608, z: -0.00000001904973}
+      rotation: {x: -1.1702442e-10, y: 0.0000000010823572, z: -4.0382957e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXRingFinger3_L
+      parentName: nvhai_rig_HIK:FKRingFinger3_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKParentConstraintToScapula_L
+      parentName: nvhai_rig_HIK:FKSystem
+      position: {x: -0.04389482, y: 1.06637, z: -0.01563351}
+      rotation: {x: 0.00873547, y: 0.7057602, z: -0.70493275, w: 0.06997291}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetShoulder_L
+      parentName: nvhai_rig_HIK:FKParentConstraintToScapula_L
+      position: {x: 0.09290388, y: 1.3322676e-16, z: -1.4210854e-15}
+      rotation: {x: 0.0043774615, y: 0.040313542, z: -0.14617568, w: 0.9884272}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKGlobalStaticShoulder_L
+      parentName: nvhai_rig_HIK:FKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKGlobalShoulder_L
+      parentName: nvhai_rig_HIK:FKGlobalStaticShoulder_L
+      position: {x: 1.7763568e-17, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraShoulder_L
+      parentName: nvhai_rig_HIK:FKGlobalShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKShoulder_L
+      parentName: nvhai_rig_HIK:FKExtraShoulder_L
+      position: {x: 0.000000006059413, y: -0.00000001738737, z: 0.00000001287164}
+      rotation: {x: 0.22908333, y: -0.16043025, z: -0.501392, w: 0.8187729}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXShoulder_L
+      parentName: nvhai_rig_HIK:FKShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetElbow_L
+      parentName: nvhai_rig_HIK:FKXShoulder_L
+      position: {x: 0.22127339, y: 6.661338e-17, z: 1.98952e-15}
+      rotation: {x: 0, y: -0, z: -0.0033246041, w: 0.9999945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraElbow_L
+      parentName: nvhai_rig_HIK:FKOffsetElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKElbow_L
+      parentName: nvhai_rig_HIK:FKExtraElbow_L
+      position: {x: -0.000000069480976, y: 0.000018414268, z: 0.000002818548}
+      rotation: {x: -0.21786796, y: -0.0935705, z: -0.6183107, w: 0.7493131}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXElbow_L
+      parentName: nvhai_rig_HIK:FKElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKOffsetWrist_L
+      parentName: nvhai_rig_HIK:FKXElbow_L
+      position: {x: 0.18873529, y: -1.861844e-15, z: 3.410605e-15}
+      rotation: {x: -0.0035068851, y: 0.050098643, z: -0.041187644, w: 0.9978885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKExtraWrist_L
+      parentName: nvhai_rig_HIK:FKOffsetWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKWrist_L
+      parentName: nvhai_rig_HIK:FKExtraWrist_L
+      position: {x: 0.000000019735179, y: 0.000000070611705, z: -0.000000054111435}
+      rotation: {x: -0.17087199, y: 0.08045804, z: -0.30933243, w: 0.93201005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKXWrist_L
+      parentName: nvhai_rig_HIK:FKWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSystem
+      parentName: nvhai_rig_HIK:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKJoints
+      parentName: nvhai_rig_HIK:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKParentConstraintShoulder_R
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: 0.01860415, y: 0.9377821, z: -0.086654834}
+      rotation: {x: -0.8183428, y: 0.007912304, z: -0.02481299, w: 0.57414013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXOffsetShoulder_R
+      parentName: nvhai_rig_HIK:IKParentConstraintShoulder_R
+      position: {x: -0.09290388, y: -4.796163e-16, z: 4.2632563e-16}
+      rotation: {x: 0.0043774615, y: 0.040313542, z: -0.14617568, w: 0.9884272}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXShoulder_R
+      parentName: nvhai_rig_HIK:IKXOffsetShoulder_R
+      position: {x: -1.7763568e-17, y: -4.440892e-18, z: -1.4210854e-16}
+      rotation: {x: 0.35453257, y: 0.20505486, z: 0.6611294, w: 0.62862325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXElbow_R
+      parentName: nvhai_rig_HIK:IKXShoulder_R
+      position: {x: -0.22127339, y: -1.1990408e-16, z: -2.131628e-15}
+      rotation: {x: -3.2027404e-17, y: 8.3050553e-16, z: -0.000000016203629, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXWrist_R
+      parentName: nvhai_rig_HIK:IKXElbow_R
+      position: {x: -0.18873529, y: 1.8207657e-15, z: -2.131628e-15}
+      rotation: {x: 0.9424342, y: -0.09076985, z: 0.034689754, w: 0.3199613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKParentConstraintHip_R
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -0.012431099, y: 0.65885913, z: 0.06999148}
+      rotation: {x: 0.5385775, y: -0.27108026, z: 0.69081223, w: -0.39903417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXOffsetHip_R
+      parentName: nvhai_rig_HIK:IKParentConstraintHip_R
+      position: {x: 0.09045748, y: -0.01249866, z: -0.07374917}
+      rotation: {x: -0.010560728, y: 0.99991447, z: 0.000082399165, w: -0.0077206497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXHip_R
+      parentName: nvhai_rig_HIK:IKXOffsetHip_R
+      position: {x: -0, y: 1.9428903e-18, z: 1.7763568e-17}
+      rotation: {x: 0.13833526, y: -0.018107012, z: -0.60323393, w: 0.78526706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXKnee_R
+      parentName: nvhai_rig_HIK:IKXHip_R
+      position: {x: -0.251649, y: 2.7561285e-16, z: -8.5265126e-16}
+      rotation: {x: 8.2269213e-14, y: 1.7171331e-13, z: 0.43928978, w: 0.8983454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXAnkle_R
+      parentName: nvhai_rig_HIK:IKXKnee_R
+      position: {x: -0.33597228, y: 2.5118796e-15, z: 1.4210854e-16}
+      rotation: {x: -0.052756436, y: 0.057841163, z: -0.07834046, w: 0.9938481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXToes_R
+      parentName: nvhai_rig_HIK:IKXAnkle_R
+      position: {x: -0.052150015, y: 0.09608723, z: -6.6791017e-15}
+      rotation: {x: 0.0007915231, y: 0.00059807516, z: -0.6028468, w: 0.79785633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKMessureFromHip_R
+      parentName: nvhai_rig_HIK:IKParentConstraintHip_R
+      position: {x: 0.09045748, y: -0.01249866, z: -0.07374917}
+      rotation: {x: -0.010560728, y: 0.99991447, z: 0.000082399165, w: -0.0077206497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKParentConstraintRoot_M
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -2.3140731e-18, y: 0.7517354, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXOffsetRoot_M
+      parentName: nvhai_rig_HIK:IKParentConstraintRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXRoot_M
+      parentName: nvhai_rig_HIK:IKXOffsetRoot_M
+      position: {x: 0.092876196, y: 0.06999148, z: 0.012431099}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXSpine1_M
+      parentName: nvhai_rig_HIK:IKXRoot_M
+      position: {x: -0.07569036, y: 0, z: -1.776357e-17}
+      rotation: {x: -0.000000016660005, y: -1.6306402e-16, z: 5.5511145e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXSpine2_M
+      parentName: nvhai_rig_HIK:IKXSpine1_M
+      position: {x: -0.075690374, y: -7.1054265e-17, z: -1.776357e-17}
+      rotation: {x: 0.000000019712386, y: -1.0755287e-16, z: -1.6653347e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXChest_M
+      parentName: nvhai_rig_HIK:IKXSpine2_M
+      position: {x: -0.075690374, y: 7.1054265e-17, z: -8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.05403068, w: 0.99853927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKfake0Spine_M
+      parentName: nvhai_rig_HIK:IKParentConstraintRoot_M
+      position: {x: 0.092876196, y: 0.06999148, z: 0.012431095}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpSpine1_M
+      parentName: nvhai_rig_HIK:IKfake0Spine_M
+      position: {x: -0.07569036, y: 2.220446e-18, z: -2.085001e-17}
+      rotation: {x: -0.000000016660005, y: 3.1279127e-23, z: -1.9549452e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpSpine2_M
+      parentName: nvhai_rig_HIK:IKSpSpine1_M
+      position: {x: -0.075690374, y: 1.2519045e-17, z: 6.8882014e-18}
+      rotation: {x: 0.000000019712386, y: 8.915158e-39, z: 2.3131224e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpChest_M
+      parentName: nvhai_rig_HIK:IKSpSpine2_M
+      position: {x: -0.07569038, y: 2.3927867e-17, z: -2.3575588e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFixedOrientRoot_M
+      parentName: nvhai_rig_HIK:IKfake0Spine_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcRootFollowOffset_M
+      parentName: nvhai_rig_HIK:IKFixedOrientRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpRootFollowOffset_M
+      parentName: nvhai_rig_HIK:IKFixedOrientRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKParentConstraintShoulder_L
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: 0.057581328, y: 0.934978, z: -0.07150948}
+      rotation: {x: 0.4700813, y: -0.17144528, z: 0.118052356, w: 0.8577259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXOffsetShoulder_L
+      parentName: nvhai_rig_HIK:IKParentConstraintShoulder_L
+      position: {x: 0.09290388, y: 1.3766766e-16, z: -1.563194e-15}
+      rotation: {x: 0.0043774615, y: 0.040313542, z: -0.14617568, w: 0.9884272}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXShoulder_L
+      parentName: nvhai_rig_HIK:IKXOffsetShoulder_L
+      position: {x: 1.7763568e-17, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0.19118951, y: -0.3076728, z: 0.8617328, w: 0.35524735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXElbow_L
+      parentName: nvhai_rig_HIK:IKXShoulder_L
+      position: {x: 0.22127339, y: 1.1990408e-16, z: 1.7053025e-15}
+      rotation: {x: -2.5622045e-17, y: 5.935071e-15, z: -0.000000016203629, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXWrist_L
+      parentName: nvhai_rig_HIK:IKXElbow_L
+      position: {x: 0.18873529, y: -1.9406698e-15, z: 3.694822e-15}
+      rotation: {x: 0.028527996, y: 0.15071638, z: -0.8346925, w: 0.5289227}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKParentConstraintHip_L
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -0.012431099, y: 0.65885913, z: 0.06999148}
+      rotation: {x: 0.5385775, y: -0.27108026, z: 0.69081223, w: -0.39903417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXOffsetHip_L
+      parentName: nvhai_rig_HIK:IKParentConstraintHip_L
+      position: {x: 0.09045748, y: -0.01249866, z: 0.07374917}
+      rotation: {x: 0.99991447, y: 0.010560728, z: 0.0077206497, w: 0.000082399165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXHip_L
+      parentName: nvhai_rig_HIK:IKXOffsetHip_L
+      position: {x: -0, y: -2.7755575e-19, z: 0}
+      rotation: {x: 0.0041301833, y: -0.072613254, z: -0.59190583, w: 0.802719}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXKnee_L
+      parentName: nvhai_rig_HIK:IKXHip_L
+      position: {x: 0.251649, y: -3.0503377e-16, z: 7.283063e-16}
+      rotation: {x: 6.75852e-14, y: 1.5123758e-13, z: 0.41473356, w: 0.9099429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXAnkle_L
+      parentName: nvhai_rig_HIK:IKXKnee_L
+      position: {x: 0.33597228, y: -5.6538105e-16, z: -2.1316282e-16}
+      rotation: {x: 0.077351354, y: 0.033542693, z: -0.06706213, w: 0.99418026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKXToes_L
+      parentName: nvhai_rig_HIK:IKXAnkle_L
+      position: {x: 0.052150015, y: -0.09608723, z: 6.750156e-15}
+      rotation: {x: 0.0007923015, y: 0.0005987098, z: -0.6028471, w: 0.79785615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKMessureFromHip_L
+      parentName: nvhai_rig_HIK:IKParentConstraintHip_L
+      position: {x: 0.09045748, y: -0.01249866, z: 0.07374917}
+      rotation: {x: 0.99991447, y: 0.010560728, z: 0.0077206497, w: 0.000082399165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpSpineOffset_M
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -2.3140731e-18, y: 0.7517354, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpSpine1FollowOffset_M
+      parentName: nvhai_rig_HIK:IKSpSpineOffset_M
+      position: {x: 0.02904567, y: 0.030044328, z: 0.004755199}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpSpine2FollowOffset_M
+      parentName: nvhai_rig_HIK:IKSpSpineOffset_M
+      position: {x: -0.03478487, y: -0.009902837, z: -0.0029207}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpChestFollowOffset_M
+      parentName: nvhai_rig_HIK:IKSpSpineOffset_M
+      position: {x: -0.09861542, y: -0.049850002, z: -0.010596599}
+      rotation: {x: 0.9634738, y: 0.22791308, z: 0.0045532025, w: -0.14054567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpineOffset_M
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -2.3140731e-18, y: 0.7517354, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcRoot_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset_M
+      position: {x: 0.092876196, y: 0.06999148, z: 0.012431099}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpine1_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset_M
+      position: {x: 0.02904567, y: 0.030044328, z: 0.004755199}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpine2_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset_M
+      position: {x: -0.03478487, y: -0.009902837, z: -0.0029207}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcChest_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset_M
+      position: {x: -0.09861542, y: -0.049850002, z: -0.010596599}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpineOffset3_M
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcPociXformSpine1_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset3_M
+      position: {x: -0.0047617448, y: 0.7226896, z: -0.030043289}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcPociXformSpine2_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset3_M
+      position: {x: 0.0002823942, y: 0.7865203, z: 0.0103207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcPociXformChest_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset3_M
+      position: {x: 0.0053265328, y: 0.8503508, z: 0.050684698}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpineOffset2_M
+      parentName: nvhai_rig_HIK:IKJoints
+      position: {x: -2.3140731e-18, y: 0.7517354, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpine1FollowOffset_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset2_M
+      position: {x: 0.02904567, y: 0.030044328, z: 0.004755199}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKAcSpine2FollowOffset_M
+      parentName: nvhai_rig_HIK:IKAcSpineOffset2_M
+      position: {x: -0.03478487, y: -0.009902837, z: -0.0029207}
+      rotation: {x: 0.9497521, y: 0.27963737, z: 0.012140232, w: -0.14009468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKHandle
+      parentName: nvhai_rig_HIK:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetArm_R
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: 0.5200613, y: 1.064166, z: -0.0092800995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraArm_R
+      parentName: nvhai_rig_HIK:IKOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKArm_R
+      parentName: nvhai_rig_HIK:IKExtraArm_R
+      position: {x: -0.75954145, y: -0.06084507, z: 0.3397295}
+      rotation: {x: 0.4221325, y: 0.0028262266, z: 0.8940531, w: 0.14988434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFKAlignedOffsetArm_R
+      parentName: nvhai_rig_HIK:IKArm_R
+      position: {x: 1.4210854e-16, y: 0, z: 1.5543122e-17}
+      rotation: {x: -0.0753589, y: 0.7031202, z: 0.70705265, w: 0.004436483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFKAlignedArm_R
+      parentName: nvhai_rig_HIK:IKFKAlignedOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureConstrainToArm_R
+      parentName: nvhai_rig_HIK:IKArm_R
+      position: {x: -1.4210854e-16, y: 7.105427e-16, z: 4.2188474e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetcvSpine1_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0.004755199, y: 0.7226896, z: 0.030044328}
+      rotation: {x: 0.012140365, y: 0.94975215, z: -0.27963725, w: 0.14009447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtracvSpine1_M
+      parentName: nvhai_rig_HIK:IKOffsetcvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKcvSpine1_M
+      parentName: nvhai_rig_HIK:IKExtracvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpineLocator1_M
+      parentName: nvhai_rig_HIK:IKcvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetcvSpine2_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: 0.0029207, y: 0.7865203, z: -0.009902837}
+      rotation: {x: 0.012140365, y: 0.94975215, z: -0.27963725, w: 0.14009447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtracvSpine2_M
+      parentName: nvhai_rig_HIK:IKOffsetcvSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKcvSpine2_M
+      parentName: nvhai_rig_HIK:IKExtracvSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpineLocator2_M
+      parentName: nvhai_rig_HIK:IKcvSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetSpine2_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0.00091724936, y: 0.754605, z: 0.010070739}
+      rotation: {x: 0.012140365, y: 0.94975215, z: -0.27963725, w: 0.14009447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraSpine2_M
+      parentName: nvhai_rig_HIK:IKOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine2_M
+      parentName: nvhai_rig_HIK:IKExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine2LocalOrient1_M
+      parentName: nvhai_rig_HIK:IKSpine2_M
+      position: {x: -1.9721522e-33, y: 0, z: -1.9721522e-33}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine2LocalOrient2_M
+      parentName: nvhai_rig_HIK:IKSpine2LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetConstrainedSpine1_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0.012431099, y: 0.65885913, z: 0.06999148}
+      rotation: {x: 0.012140365, y: 0.94975215, z: -0.27963725, w: 0.14009447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridOffsetSpine1_M
+      parentName: nvhai_rig_HIK:IKOffsetConstrainedSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetSpine1_M
+      parentName: nvhai_rig_HIK:IKhybridOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraSpine1_M
+      parentName: nvhai_rig_HIK:IKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine1_M
+      parentName: nvhai_rig_HIK:IKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpineLocator0_M
+      parentName: nvhai_rig_HIK:IKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine1LocalOrient1_M
+      parentName: nvhai_rig_HIK:IKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine1LocalOrient2_M
+      parentName: nvhai_rig_HIK:IKSpine1LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridFollowSpine1_M
+      parentName: nvhai_rig_HIK:IKhybridOffsetSpine1_M
+      position: {x: -1.4210849e-16, y: 0, z: 0}
+      rotation: {x: -1.2490013e-16, y: -1.0755286e-16, z: -2.2204463e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridExtraSpine1_M
+      parentName: nvhai_rig_HIK:IKhybridFollowSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridSpine1_M
+      parentName: nvhai_rig_HIK:IKhybridExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridOffsetSpine2_M
+      parentName: nvhai_rig_HIK:IKhybridSpine1_M
+      position: {x: -0.11353555, y: -1.4016566e-17, z: -1.5094352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridExtraSpine2_M
+      parentName: nvhai_rig_HIK:IKhybridOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridSpine2_M
+      parentName: nvhai_rig_HIK:IKhybridExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridOffsetSpine3_M
+      parentName: nvhai_rig_HIK:IKhybridSpine2_M
+      position: {x: -0.113535576, y: 2.2640004e-18, z: -1.2250144e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridExtraSpine3_M
+      parentName: nvhai_rig_HIK:IKhybridOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKhybridSpine3_M
+      parentName: nvhai_rig_HIK:IKhybridExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetSpine3_M
+      parentName: nvhai_rig_HIK:IKhybridSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraSpine3_M
+      parentName: nvhai_rig_HIK:IKOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine3_M
+      parentName: nvhai_rig_HIK:IKExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpineLocator3_M
+      parentName: nvhai_rig_HIK:IKSpine3_M
+      position: {x: 8.67747e-32, y: 0, z: -5.0419924e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine3LocalOrient1_M
+      parentName: nvhai_rig_HIK:IKSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.4722543, y: -0.526285, z: -0.4722543, w: 0.526285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpine3LocalOrient2_M
+      parentName: nvhai_rig_HIK:IKSpine3LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetLeg_R
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: 0.08282179, y: 0.07380746, z: -0.0031154384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraLeg_R
+      parentName: nvhai_rig_HIK:IKOffsetLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKLeg_R
+      parentName: nvhai_rig_HIK:IKExtraLeg_R
+      position: {x: -0.122029394, y: -0.001963298, z: -0.004702093}
+      rotation: {x: 6.4930786e-17, y: 0.9980547, z: -6.4930786e-17, w: 0.062345423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKLegFootRockInnerPivot_R
+      parentName: nvhai_rig_HIK:IKLeg_R
+      position: {x: -0.04756563, y: -0.07380746, z: 0.096087046}
+      rotation: {x: 0, y: -0.000992538, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKLegFootRockOuterPivot_R
+      parentName: nvhai_rig_HIK:IKLegFootRockInnerPivot_R
+      position: {x: 0.09513482, y: 0, z: -0.0001888502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFKAlignedLeg_R
+      parentName: nvhai_rig_HIK:IKLegFootRockOuterPivot_R
+      position: {x: -0.047760025, y: 0.07380746, z: -0.09599243}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollOffsetHeel_R
+      parentName: nvhai_rig_HIK:IKLegFootRockOuterPivot_R
+      position: {x: -0.047847033, y: -0.00010187378, z: -0.13982409}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollRollerHeel_R
+      parentName: nvhai_rig_HIK:RollOffsetHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollExtraHeel_R
+      parentName: nvhai_rig_HIK:RollRollerHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollHeel_R
+      parentName: nvhai_rig_HIK:RollExtraHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollOffsetToesEnd_R
+      parentName: nvhai_rig_HIK:RollHeel_R
+      position: {x: 0.00023713257, y: 0.0002959337, z: 0.21550758}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollRollerToesEnd_R
+      parentName: nvhai_rig_HIK:RollOffsetToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollExtraToesEnd_R
+      parentName: nvhai_rig_HIK:RollRollerToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollToesEnd_R
+      parentName: nvhai_rig_HIK:RollExtraToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollOffsetToes_R
+      parentName: nvhai_rig_HIK:RollToesEnd_R
+      position: {x: -0.00015011901, y: 0.02146339, z: -0.075588666}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollRollerToes_R
+      parentName: nvhai_rig_HIK:RollOffsetToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollExtraToes_R
+      parentName: nvhai_rig_HIK:RollRollerToes_R
+      position: {x: -0, y: -4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollToes_R
+      parentName: nvhai_rig_HIK:RollExtraToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureConstrainToLeg_R
+      parentName: nvhai_rig_HIK:RollToes_R
+      position: {x: -0.0000000042000994, y: 0.052150015, z: -0.09608723}
+      rotation: {x: 0, y: 0.0009925384, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:PoleOffsetLeg_R
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: 0.007416764, y: 0.40027222, z: -0.550059}
+      rotation: {x: -0.03410848, y: 0.9953878, z: 0.06281216, w: 0.06398766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:PoleExtraLeg_R
+      parentName: nvhai_rig_HIK:PoleOffsetLeg_R
+      position: {x: 0.00015142855, y: -0.009740607, z: -0.5230587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:PoleLeg_R
+      parentName: nvhai_rig_HIK:PoleExtraLeg_R
+      position: {x: 0.023324229, y: 0.060595598, z: 0.09510402}
+      rotation: {x: 0.14815663, y: 0.050050255, z: -0.036991607, w: 0.9870037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetArm_L
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0.5200613, y: 1.064166, z: -0.0092800995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraArm_L
+      parentName: nvhai_rig_HIK:IKOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKArm_L
+      parentName: nvhai_rig_HIK:IKExtraArm_L
+      position: {x: 0.3086906, y: -0.2076183, z: 0.2602753}
+      rotation: {x: -0.055378612, y: 0.9567286, z: -0.018380355, w: 0.28507164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFKAlignedOffsetArm_L
+      parentName: nvhai_rig_HIK:IKArm_L
+      position: {x: -0, y: 0, z: -8.881784e-18}
+      rotation: {x: -0.004436483, y: 0.7070527, z: -0.7031202, w: -0.075358905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFKAlignedArm_L
+      parentName: nvhai_rig_HIK:IKFKAlignedOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureConstrainToArm_L
+      parentName: nvhai_rig_HIK:IKArm_L
+      position: {x: -0, y: 4.2632563e-16, z: 9.5479175e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKOffsetLeg_L
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0.08282179, y: 0.07380746, z: -0.0031154384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKExtraLeg_L
+      parentName: nvhai_rig_HIK:IKOffsetLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKLeg_L
+      parentName: nvhai_rig_HIK:IKExtraLeg_L
+      position: {x: 0.122314095, y: -0.00023234119, z: 0.02088387}
+      rotation: {x: 7.2554314e-17, y: 0.9784586, z: -7.2554314e-17, w: 0.2064433}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKLegFootRockInnerPivot_L
+      parentName: nvhai_rig_HIK:IKLeg_L
+      position: {x: 0.04756563, y: -0.07380746, z: 0.096087046}
+      rotation: {x: 0, y: 0.000992538, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKLegFootRockOuterPivot_L
+      parentName: nvhai_rig_HIK:IKLegFootRockInnerPivot_L
+      position: {x: -0.09513482, y: 0, z: -0.0001888502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKFKAlignedLeg_L
+      parentName: nvhai_rig_HIK:IKLegFootRockOuterPivot_L
+      position: {x: 0.047760025, y: 0.07380746, z: -0.09599243}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollOffsetHeel_L
+      parentName: nvhai_rig_HIK:IKLegFootRockOuterPivot_L
+      position: {x: 0.047847033, y: -0.00010187378, z: -0.13982409}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollRollerHeel_L
+      parentName: nvhai_rig_HIK:RollOffsetHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollExtraHeel_L
+      parentName: nvhai_rig_HIK:RollRollerHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollHeel_L
+      parentName: nvhai_rig_HIK:RollExtraHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollOffsetToesEnd_L
+      parentName: nvhai_rig_HIK:RollHeel_L
+      position: {x: -0.00023713257, y: 0.0002959337, z: 0.21550758}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollRollerToesEnd_L
+      parentName: nvhai_rig_HIK:RollOffsetToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollExtraToesEnd_L
+      parentName: nvhai_rig_HIK:RollRollerToesEnd_L
+      position: {x: -0, y: -3.469447e-20, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollToesEnd_L
+      parentName: nvhai_rig_HIK:RollExtraToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollOffsetToes_L
+      parentName: nvhai_rig_HIK:RollToesEnd_L
+      position: {x: 0.00015011901, y: 0.02146339, z: -0.075588666}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollRollerToes_L
+      parentName: nvhai_rig_HIK:RollOffsetToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollExtraToes_L
+      parentName: nvhai_rig_HIK:RollRollerToes_L
+      position: {x: -0, y: -4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RollToes_L
+      parentName: nvhai_rig_HIK:RollExtraToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureConstrainToLeg_L
+      parentName: nvhai_rig_HIK:RollToes_L
+      position: {x: 0.0000000042000994, y: 0.052150015, z: -0.09608723}
+      rotation: {x: 0, y: -0.0009925384, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:PoleOffsetLeg_L
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: 0.2838364, y: 0.3942863, z: -0.47218058}
+      rotation: {x: 0.024976816, y: 0.97637516, z: 0.06728527, w: 0.20381461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:PoleExtraLeg_L
+      parentName: nvhai_rig_HIK:PoleOffsetLeg_L
+      position: {x: -0.00015142855, y: -0.009740607, z: -0.5230587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:PoleLeg_L
+      parentName: nvhai_rig_HIK:PoleExtraLeg_L
+      position: {x: 0.02047894, y: 0.07109345, z: 0.08436184}
+      rotation: {x: 0.13074434, y: 0.07474132, z: 0.0103138555, w: 0.988541}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKScalerRoot_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKScalerSpine1_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKScalerSpine2_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKScalerChest_M
+      parentName: nvhai_rig_HIK:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKCurve
+      parentName: nvhai_rig_HIK:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKSpineCurve_M
+      parentName: nvhai_rig_HIK:IKCurve
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKMessure
+      parentName: nvhai_rig_HIK:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc1Arm_R
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: -0.0741737, y: 0.9416322, z: -0.08958367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc2Arm_R
+      parentName: nvhai_rig_HIK:IKmessureLoc1Arm_R
+      position: {x: -0.1653065, y: 0.061688315, z: 0.4200331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKdistanceArm_R
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc1Leg_R
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: -0.09567827, y: 0.5851792, z: 0.1076595}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc2Leg_R
+      parentName: nvhai_rig_HIK:IKmessureLoc1Leg_R
+      position: {x: 0.05647067, y: -0.5133351, z: -0.115476996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKdistanceLeg_R
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc1Arm_L
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: 0.1424342, y: 0.9388173, z: -0.03387463}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc2Arm_L
+      parentName: nvhai_rig_HIK:IKmessureLoc1Arm_L
+      position: {x: -0.3538049, y: -0.08227002, z: 0.2848698}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKdistanceArm_L
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc1Leg_L
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: 0.045986872, y: 0.5933345, z: 0.1479117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKmessureLoc2Leg_L
+      parentName: nvhai_rig_HIK:IKmessureLoc1Leg_L
+      position: {x: -0.006494574, y: -0.5197594, z: -0.1301433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IKdistanceLeg_L
+      parentName: nvhai_rig_HIK:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKSystem
+      parentName: nvhai_rig_HIK:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKParentConstraintArm_R
+      parentName: nvhai_rig_HIK:FKIKSystem
+      position: {x: 0.01860415, y: 0.9377821, z: -0.086654834}
+      rotation: {x: -0.81834286, y: 0.007912321, z: -0.024812983, w: 0.5741401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKArm_R
+      parentName: nvhai_rig_HIK:FKIKParentConstraintArm_R
+      position: {x: -0.17841387, y: 0.025954373, z: 0.033330403}
+      rotation: {x: 0.12346485, y: 0.69664603, z: 0.70357114, w: 0.06654619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKParentConstraintLeg_R
+      parentName: nvhai_rig_HIK:FKIKSystem
+      position: {x: -0.012431099, y: 0.65885913, z: 0.06999148}
+      rotation: {x: 0.53857744, y: -0.27108046, z: 0.6908121, w: -0.39903438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKLeg_R
+      parentName: nvhai_rig_HIK:FKIKParentConstraintLeg_R
+      position: {x: 0.18175244, y: -0.010560397, z: -0.10373059}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKParentConstraintSpine_M
+      parentName: nvhai_rig_HIK:FKIKSystem
+      position: {x: -0.012431099, y: 0.65885913, z: 0.06999148}
+      rotation: {x: 0.53857744, y: -0.27108046, z: 0.6908121, w: -0.39903438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKSpine_M
+      parentName: nvhai_rig_HIK:FKIKParentConstraintSpine_M
+      position: {x: -0.09176752, y: -1.0508489e-33, z: 0.038313054}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKParentConstraintArm_L
+      parentName: nvhai_rig_HIK:FKIKSystem
+      position: {x: 0.057581328, y: 0.934978, z: -0.07150948}
+      rotation: {x: 0.47008127, y: -0.1714453, z: 0.11805236, w: 0.857726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKArm_L
+      parentName: nvhai_rig_HIK:FKIKParentConstraintArm_L
+      position: {x: 0.17841387, y: -0.025954373, z: -0.033330403}
+      rotation: {x: 0.06654619, y: 0.70357114, z: -0.69664603, w: -0.12346485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKParentConstraintLeg_L
+      parentName: nvhai_rig_HIK:FKIKSystem
+      position: {x: -0.012431099, y: 0.65885913, z: 0.06999148}
+      rotation: {x: 0.53857744, y: -0.27108046, z: 0.6908121, w: -0.39903438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:FKIKLeg_L
+      parentName: nvhai_rig_HIK:FKIKParentConstraintLeg_L
+      position: {x: 0.18175244, y: -0.010560397, z: 0.10373059}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendSystem
+      parentName: nvhai_rig_HIK:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowCurve_R
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendParentConstraintOffsetElbow_R
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: 0.33141398, y: 1.0641639, z: -0.015043901}
+      rotation: {x: -0.010801987, y: 0.7069966, z: 0.70705205, w: 0.010794918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendParentConstraintElbow_R
+      parentName: nvhai_rig_HIK:BendParentConstraintOffsetElbow_R
+      position: {x: 0.23759389, y: 0.2814132, z: -0.202052}
+      rotation: {x: -0.47219735, y: 0.44155884, z: 0.7010214, w: -0.30103898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendOffsetElbow1_R
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_R
+      position: {x: -1.4210854e-16, y: 4.440892e-18, z: -4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendExtraElbow1_R
+      parentName: nvhai_rig_HIK:BendOffsetElbow1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbow1_R
+      parentName: nvhai_rig_HIK:BendExtraElbow1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator0_R
+      parentName: nvhai_rig_HIK:BendElbow1_R
+      position: {x: -0, y: -4.440892e-18, z: 0}
+      rotation: {x: -0.010801987, y: 0.7069966, z: 0.70705205, w: -0.010794918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowBendTangent_R
+      parentName: nvhai_rig_HIK:BendElbow1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.12673475, y: -0.01872887, z: -0.0165057, w: 0.9916225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowBendStatic_R
+      parentName: nvhai_rig_HIK:BendElbow1_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.12648697, y: 0, z: -0, w: 0.9919683}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator1_R
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_R
+      position: {x: -0.04379824, y: 0.0012273389, z: -0.0018123359}
+      rotation: {x: -0.010801987, y: 0.7069966, z: 0.70705205, w: -0.010794918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendOffsetElbow2_R
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_R
+      position: {x: -0.09092325, y: 0.002547903, z: -0.0037623309}
+      rotation: {x: 0.00028936905, y: -0.0206743, z: -0.013992199, w: 0.9996883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendExtraElbow2_R
+      parentName: nvhai_rig_HIK:BendOffsetElbow2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbow2_R
+      parentName: nvhai_rig_HIK:BendExtraElbow2_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator2_R
+      parentName: nvhai_rig_HIK:BendElbow2_R
+      position: {x: -0, y: -4.440892e-18, z: -1.4210854e-16}
+      rotation: {x: -0.010801987, y: 0.7069966, z: 0.70705205, w: -0.010794918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator3_R
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_R
+      position: {x: -0.13804829, y: 0.003868466, z: -0.005712326}
+      rotation: {x: -0.010801987, y: 0.7069966, z: 0.70705205, w: -0.010794918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator4_R
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_R
+      position: {x: -0.1818465, y: 0.005095806, z: -0.007524661}
+      rotation: {x: 0.74566835, y: 0.24328575, z: -0.06717038, w: 0.6166676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowPointOnCurveXform1_R
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: 0.059287198, y: 0.88686395, z: 0.30678618}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowPointOnCurveXform2_R
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: 0.03210674, y: 0.91271335, z: 0.3566776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowCurve_L
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendParentConstraintOffsetElbow_L
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: -0.33141398, y: 1.0641639, z: -0.015043901}
+      rotation: {x: -0.010794918, y: 0.70705205, z: -0.7069966, w: -0.010801987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendParentConstraintElbow_L
+      parentName: nvhai_rig_HIK:BendParentConstraintOffsetElbow_L
+      position: {x: -0.1409017, y: -0.2680462, z: 0.237844}
+      rotation: {x: 0.04231522, y: 0.210652, z: 0.93847436, w: -0.2703721}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendOffsetElbow1_L
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_L
+      position: {x: -0, y: 4.440892e-18, z: 4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendExtraElbow1_L
+      parentName: nvhai_rig_HIK:BendOffsetElbow1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbow1_L
+      parentName: nvhai_rig_HIK:BendExtraElbow1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator0_L
+      parentName: nvhai_rig_HIK:BendElbow1_L
+      position: {x: -0, y: -4.440892e-18, z: -2.842171e-16}
+      rotation: {x: -0.010794918, y: 0.70705205, z: -0.7069966, w: 0.010801987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowBendTangent_L
+      parentName: nvhai_rig_HIK:BendElbow1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.26424488, y: -0.012881215, z: -0.019249381, w: 0.9641775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowBendStatic_L
+      parentName: nvhai_rig_HIK:BendElbow1_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.26447126, y: -0, z: -0, w: 0.9643936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator1_L
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_L
+      position: {x: 0.04553614, y: -0.002002425, z: 0.0006685709}
+      rotation: {x: -0.010794918, y: 0.70705205, z: -0.7069966, w: 0.010801987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendOffsetElbow2_L
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_L
+      position: {x: 0.09266933, y: -0.0040750788, z: 0.00136059}
+      rotation: {x: 0.00016126303, y: -0.0073387385, z: -0.021968326, w: 0.9997318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendExtraElbow2_L
+      parentName: nvhai_rig_HIK:BendOffsetElbow2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbow2_L
+      parentName: nvhai_rig_HIK:BendExtraElbow2_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator2_L
+      parentName: nvhai_rig_HIK:BendElbow2_L
+      position: {x: 1.4210854e-16, y: 4.440892e-18, z: -2.842171e-16}
+      rotation: {x: -0.010794918, y: 0.70705205, z: -0.7069966, w: 0.010801987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator3_L
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_L
+      position: {x: 0.1398025, y: -0.0061477325, z: 0.00205261}
+      rotation: {x: -0.010794918, y: 0.70705205, z: -0.7069966, w: 0.010801987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:BendElbowLocator4_L
+      parentName: nvhai_rig_HIK:BendParentConstraintElbow_L
+      position: {x: 0.1853387, y: -0.0081501575, z: 0.002721181}
+      rotation: {x: -0.18739922, y: 0.12683661, z: -0.37054497, w: 0.90082765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowPointOnCurveXform1_L
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: -0.1279544, y: 0.8146185, z: 0.2745103}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ElbowPointOnCurveXform2_L
+      parentName: nvhai_rig_HIK:BendSystem
+      position: {x: -0.07241162, y: 0.80270284, z: 0.30099058}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwistSystem
+      parentName: nvhai_rig_HIK:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwistFollowParentOffsetElbow_R
+      parentName: nvhai_rig_HIK:TwistSystem
+      position: {x: 0.11020379, y: 1.0641619, z: -0.020330636}
+      rotation: {x: -0.008451443, y: 0.7070286, z: 0.707084, w: 0.008444191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwistFollowParentElbow_R
+      parentName: nvhai_rig_HIK:TwistFollowParentOffsetElbow_R
+      position: {x: 0.1859806, y: -0.064818434, z: -0.12253299}
+      rotation: {x: 0.52044475, y: 0.15681885, z: 0.542797, w: 0.6402473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:UnTwistElbow_R
+      parentName: nvhai_rig_HIK:TwistFollowParentElbow_R
+      position: {x: -0.2123727, y: -0.005859622, z: 0.0065661073}
+      rotation: {x: -0.00006046027, y: -0.018185357, z: -0.43358356, w: 0.90092987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwisterElbow0_R
+      parentName: nvhai_rig_HIK:UnTwistElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwisterElbow1_R
+      parentName: nvhai_rig_HIK:UnTwistElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.32314447, y: -0, z: -0, w: 0.9463497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwisterElbow2_R
+      parentName: nvhai_rig_HIK:UnTwistElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.61161536, y: -0, z: -0, w: 0.7911553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwistFollowParentOffsetElbow_L
+      parentName: nvhai_rig_HIK:TwistSystem
+      position: {x: -0.11020379, y: 1.0641619, z: -0.020330636}
+      rotation: {x: -0.008444191, y: 0.707084, z: -0.7070286, w: -0.008451443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwistFollowParentElbow_L
+      parentName: nvhai_rig_HIK:TwistFollowParentOffsetElbow_L
+      position: {x: -0.2528906, y: 0.007494189, z: 0.1253428}
+      rotation: {x: 0.30644935, y: 0.029580493, z: 0.8662324, w: 0.39351648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:UnTwistElbow_L
+      parentName: nvhai_rig_HIK:TwistFollowParentElbow_L
+      position: {x: 0.2135014, y: 0.007948008, z: 0.002252546}
+      rotation: {x: -0.0008578459, y: -0.25803226, z: -0.56768227, w: 0.7817644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwisterElbow0_L
+      parentName: nvhai_rig_HIK:UnTwistElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwisterElbow1_L
+      parentName: nvhai_rig_HIK:UnTwistElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.15134537, y: 0, z: -0, w: 0.988481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:TwisterElbow2_L
+      parentName: nvhai_rig_HIK:UnTwistElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.299204, y: 0, z: -0, w: 0.9541892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:DeformationSystem
+      parentName: nvhai_rig_HIK:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Root_M
+      parentName: nvhai_rig_HIK:DeformationSystem
+      position: {x: -0.021757036, y: 0.74926776, z: 0.0669613}
+      rotation: {x: 0.41562694, y: -0.41562694, z: 0.5720614, w: -0.5720614}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:Spine1_M
+      parentName: nvhai_rig_HIK:Root_M
+      position: {x: -0.07569035, y: -0.000000051912796, z: -0.000000003186534}
+      rotation: {x: -0, y: -0, z: 0.000000014901161, w: 1}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000005}
+    - name: nvhai_rig_HIK:Spine2_M
+      parentName: nvhai_rig_HIK:Spine1_M
+      position: {x: -0.07569039, y: 0.00000002172758, z: -0.00000000361575}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000006}
+    - name: nvhai_rig_HIK:Chest_M
+      parentName: nvhai_rig_HIK:Spine2_M
+      position: {x: -0.07569043, y: -0.000000031570337, z: -0.000000005921164}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: 0.054030687, w: 0.9985393}
+      scale: {x: 1.0000012, y: 1.0000011, z: 1.0000011}
+    - name: nvhai_rig_HIK:Scapula_L
+      parentName: nvhai_rig_HIK:Chest_M
+      position: {x: -0.09161924, y: 0.01439376, z: 0.020955099}
+      rotation: {x: -0.72218347, y: 0.1376893, z: -0.6756143, w: 0.05511957}
+      scale: {x: 1.0000007, y: 1.0000001, z: 0.99999994}
+    - name: nvhai_rig_HIK:Shoulder_L
+      parentName: nvhai_rig_HIK:Scapula_L
+      position: {x: 0.09290388, y: -0.00000001828247, z: 0.00000001214526}
+      rotation: {x: 0.0043774988, y: 0.04031366, z: -0.14617571, w: 0.9884273}
+      scale: {x: 1.0000011, y: 1.000001, z: 1.000001}
+    - name: nvhai_rig_HIK:Elbow_L
+      parentName: nvhai_rig_HIK:Shoulder_L
+      position: {x: 0.21347219, y: -0.00805944, z: 0.0039688847}
+      rotation: {x: -0.00000001862645, y: -0, z: -0.0033245098, w: 0.9999945}
+      scale: {x: 1.0000019, y: 1.0000008, z: 1.000001}
+    - name: nvhai_rig_HIK:ElbowPart1_L
+      parentName: nvhai_rig_HIK:Elbow_L
+      position: {x: 0.06141478, y: -0.0009310433, z: 0.0010759489}
+      rotation: {x: 0.00000006548944, y: -0.00000008918971, z: -0.00000008894128, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
+    - name: nvhai_rig_HIK:ElbowPart2_L
+      parentName: nvhai_rig_HIK:ElbowPart1_L
+      position: {x: 0.062675215, y: -7.81597e-16, z: -1.4210849e-16}
+      rotation: {x: -0.00000007449299, y: -0.00000000397297, z: 6.101171e-15, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000002}
+    - name: nvhai_rig_HIK:Wrist_L
+      parentName: nvhai_rig_HIK:ElbowPart2_L
+      position: {x: 0.06143126, y: 8.437695e-16, z: -2.842171e-16}
+      rotation: {x: -0.0035068586, y: 0.050098732, z: -0.04118764, w: 0.9978885}
+      scale: {x: 1.0000014, y: 1.0000001, z: 1.0000008}
+    - name: nvhai_rig_HIK:Cup_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.0247173, y: 0.01288193, z: 0.000005304102}
+      rotation: {x: -0.00006053153, y: 0.0013317649, z: -0.045352116, w: 0.9989702}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000005}
+    - name: nvhai_rig_HIK:PinkyFinger1_L
+      parentName: nvhai_rig_HIK:Cup_L
+      position: {x: 0.03191432, y: 0.02326468, z: 0.003268429}
+      rotation: {x: -0.008695195, y: -0.03256413, z: 0.11997896, w: 0.9922042}
+      scale: {x: 0.99999994, y: 1.0000008, z: 1.0000001}
+    - name: nvhai_rig_HIK:PinkyFinger2_L
+      parentName: nvhai_rig_HIK:PinkyFinger1_L
+      position: {x: 0.02782018, y: -0.00000001526203, z: -0.00000004541836}
+      rotation: {x: 0.0023081242, y: -0.0058542253, z: 0.0020052658, w: 0.9999782}
+      scale: {x: 1.000001, y: 1, z: 1.0000004}
+    - name: nvhai_rig_HIK:PinkyFinger3_L
+      parentName: nvhai_rig_HIK:PinkyFinger2_L
+      position: {x: 0.01987285, y: -0.000000010223411, z: -0.0000000058935097}
+      rotation: {x: -0.018637633, y: -0.004217579, z: -0.000102759266, w: -0.99981743}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000002}
+    - name: nvhai_rig_HIK:PinkyFinger4_L
+      parentName: nvhai_rig_HIK:PinkyFinger3_L
+      position: {x: 0.017298827, y: 8.8817837e-17, z: -2.5579537e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RingFinger1_L
+      parentName: nvhai_rig_HIK:Cup_L
+      position: {x: 0.03933439, y: 0.008776584, z: -0.0001139549}
+      rotation: {x: 0.0018957165, y: -0.042640302, z: 0.11579219, w: 0.99235606}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.99999994}
+    - name: nvhai_rig_HIK:RingFinger2_L
+      parentName: nvhai_rig_HIK:RingFinger1_L
+      position: {x: 0.03394576, y: -0.000000008616078, z: 0.000000007080606}
+      rotation: {x: -0.0024746337, y: -0.008659173, z: 0.00024892215, w: 0.99995947}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000004}
+    - name: nvhai_rig_HIK:RingFinger3_L
+      parentName: nvhai_rig_HIK:RingFinger2_L
+      position: {x: 0.02449199, y: 0.000000008671473, z: -0.00000001899137}
+      rotation: {x: -0.0049369885, y: -0.0031606618, z: -0.000006382012, w: -0.9999829}
+      scale: {x: 1.0000018, y: 1.0000008, z: 1.0000014}
+    - name: nvhai_rig_HIK:RingFinger4_L
+      parentName: nvhai_rig_HIK:RingFinger3_L
+      position: {x: 0.021008058, y: 2.7089442e-16, z: 5.1159075e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MiddleFinger1_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.06944029, y: 0.000000005785087, z: 0.00000003676539}
+      rotation: {x: 0.0037043185, y: -0.06350004, z: 0.05268739, w: 0.99658316}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000005}
+    - name: nvhai_rig_HIK:MiddleFinger2_L
+      parentName: nvhai_rig_HIK:MiddleFinger1_L
+      position: {x: 0.03966744, y: -0.0000000032389638, z: 0.000000006935109}
+      rotation: {x: -0.00031906608, y: 0.0055267112, z: -0.0000103938755, w: -0.9999847}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: nvhai_rig_HIK:MiddleFinger3_L
+      parentName: nvhai_rig_HIK:MiddleFinger2_L
+      position: {x: 0.028862309, y: 0.000000008653529, z: -0.00000000233499}
+      rotation: {x: 0.00046579266, y: 0.002230568, z: -0.00000019806036, w: 0.99999744}
+      scale: {x: 1.0000019, y: 1.0000013, z: 1.0000008}
+    - name: nvhai_rig_HIK:MiddleFinger4_L
+      parentName: nvhai_rig_HIK:MiddleFinger3_L
+      position: {x: 0.016981622, y: -1.3877788e-17, z: -4.8316907e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IndexFinger1_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.070660315, y: -0.017725749, z: 0.002740842}
+      rotation: {x: -0.006893216, y: 0.074534446, z: -0.024321226, w: -0.996898}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000007}
+    - name: nvhai_rig_HIK:IndexFinger2_L
+      parentName: nvhai_rig_HIK:IndexFinger1_L
+      position: {x: 0.03171415, y: -0.0000000023849789, z: 0.00000001537821}
+      rotation: {x: -0.00000006752087, y: 0.007455794, z: -0.00052527327, w: 0.99997205}
+      scale: {x: 1.0000011, y: 1.000001, z: 1.0000007}
+    - name: nvhai_rig_HIK:IndexFinger3_L
+      parentName: nvhai_rig_HIK:IndexFinger2_L
+      position: {x: 0.023696858, y: -0.000000013515, z: -0.000000049751236}
+      rotation: {x: 0.014277832, y: -0.0043639326, z: -0.00001245904, w: -0.9998886}
+      scale: {x: 1.0000019, y: 1.0000011, z: 1.0000011}
+    - name: nvhai_rig_HIK:IndexFinger4_L
+      parentName: nvhai_rig_HIK:IndexFinger3_L
+      position: {x: 0.018881213, y: 1.7763568e-17, z: -2.7000624e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ThumbFinger1_L
+      parentName: nvhai_rig_HIK:Wrist_L
+      position: {x: 0.0151870595, y: -0.013787349, z: 0.008821936}
+      rotation: {x: -0.36475098, y: 0.08094495, z: -0.38815334, w: 0.84246176}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1.0000007}
+    - name: nvhai_rig_HIK:ThumbFinger2_L
+      parentName: nvhai_rig_HIK:ThumbFinger1_L
+      position: {x: 0.02809731, y: 0.00000001740491, z: 0.00000001287901}
+      rotation: {x: 0.00025978664, y: -0.025654042, z: 0.021892603, w: 0.99943113}
+      scale: {x: 0.9999983, y: 1.0000006, z: 1.0000004}
+    - name: nvhai_rig_HIK:ThumbFinger3_L
+      parentName: nvhai_rig_HIK:ThumbFinger2_L
+      position: {x: 0.02991229, y: 0.00000002576423, z: -0.00000002617051}
+      rotation: {x: 0.000000008702042, y: 0.00000008940694, z: 0.032092456, w: 0.9994849}
+      scale: {x: 1, y: 1.0000005, z: 1.0000002}
+    - name: nvhai_rig_HIK:ThumbFinger4_L
+      parentName: nvhai_rig_HIK:ThumbFinger3_L
+      position: {x: 0.019168304, y: 2.842171e-16, z: 1.6342482e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Scapula_R
+      parentName: nvhai_rig_HIK:Chest_M
+      position: {x: -0.09161917, y: 0.014393769, z: -0.02095511}
+      rotation: {x: 0.13768928, y: 0.7221834, z: -0.055119548, w: -0.6756143}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000002}
+    - name: nvhai_rig_HIK:Shoulder_R
+      parentName: nvhai_rig_HIK:Scapula_R
+      position: {x: -0.09290388, y: -0.0000000052914078, z: 0.00000000134408}
+      rotation: {x: 0.004377559, y: 0.04031354, z: -0.14617571, w: 0.98842716}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000007}
+    - name: nvhai_rig_HIK:Elbow_R
+      parentName: nvhai_rig_HIK:Shoulder_R
+      position: {x: -0.2123833, y: 0.003939111, z: -0.007577133}
+      rotation: {x: -0.00000004936009, y: -0.0000000372529, z: -0.0033245862, w: 0.99999446}
+      scale: {x: 1.000001, y: 1.0000011, z: 1.0000005}
+    - name: nvhai_rig_HIK:ElbowPart1_R
+      parentName: nvhai_rig_HIK:Elbow_R
+      position: {x: -0.0598086, y: 0.0011211439, z: -0.0009867545}
+      rotation: {x: -0.00000006023097, y: 0.00000004822879, z: 0.00000001466833, w: 1}
+      scale: {x: 1.0000013, y: 1.0000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:ElbowPart2_R
+      parentName: nvhai_rig_HIK:ElbowPart1_R
+      position: {x: -0.06241895, y: 1.4210849e-16, z: -1.953993e-16}
+      rotation: {x: 0.00000005702831, y: 0.0000000746958, z: -0.00000001513398, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999996}
+    - name: nvhai_rig_HIK:Wrist_R
+      parentName: nvhai_rig_HIK:ElbowPart2_R
+      position: {x: -0.059827242, y: 2.131628e-16, z: 4.263256e-16}
+      rotation: {x: -0.0035068553, y: 0.050098497, z: -0.041187637, w: 0.9978885}
+      scale: {x: 1.0000011, y: 1.000001, z: 1.0000007}
+    - name: nvhai_rig_HIK:Cup_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.0247173, y: -0.01288193, z: -0.000005304102}
+      rotation: {x: -0.00006051943, y: 0.001331888, z: -0.045352098, w: 0.99897015}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000002}
+    - name: nvhai_rig_HIK:PinkyFinger1_R
+      parentName: nvhai_rig_HIK:Cup_R
+      position: {x: -0.031914327, y: -0.02326467, z: -0.0032684107}
+      rotation: {x: -0.008695212, y: -0.032563463, z: 0.119978696, w: 0.9922042}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    - name: nvhai_rig_HIK:PinkyFinger2_R
+      parentName: nvhai_rig_HIK:PinkyFinger1_R
+      position: {x: -0.0278202, y: -0.0000000017720699, z: 0.0000000070564194}
+      rotation: {x: 0.0023080877, y: -0.0058543277, z: 0.0020052202, w: 0.99997824}
+      scale: {x: 1.0000017, y: 1.0000006, z: 1.000001}
+    - name: nvhai_rig_HIK:PinkyFinger3_R
+      parentName: nvhai_rig_HIK:PinkyFinger2_R
+      position: {x: -0.01987285, y: -0.000000013424039, z: -0.000000049526662}
+      rotation: {x: 0.018637586, y: 0.0042175846, z: 0.00010277294, w: 0.9998174}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:PinkyFinger4_R
+      parentName: nvhai_rig_HIK:PinkyFinger3_R
+      position: {x: -0.017298827, y: 1.5987211e-16, z: 3.694822e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:RingFinger1_R
+      parentName: nvhai_rig_HIK:Cup_R
+      position: {x: -0.03933438, y: -0.0087765595, z: 0.000113916496}
+      rotation: {x: 0.0018956582, y: -0.042640854, z: 0.115792125, w: 0.992356}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: nvhai_rig_HIK:RingFinger2_R
+      parentName: nvhai_rig_HIK:RingFinger1_R
+      position: {x: -0.03394576, y: 0.00000001824467, z: 0.00000002742679}
+      rotation: {x: -0.0024746747, y: -0.008659186, z: 0.00024899183, w: 0.9999594}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000008}
+    - name: nvhai_rig_HIK:RingFinger3_R
+      parentName: nvhai_rig_HIK:RingFinger2_R
+      position: {x: -0.024491979, y: -0.00000001957984, z: -0.000000039719637}
+      rotation: {x: 0.004937029, y: 0.0031607342, z: 0.0000063968955, w: 0.9999829}
+      scale: {x: 1.0000024, y: 1.0000011, z: 1.0000014}
+    - name: nvhai_rig_HIK:RingFinger4_R
+      parentName: nvhai_rig_HIK:RingFinger3_R
+      position: {x: -0.021008058, y: -2.220446e-16, z: -3.410605e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:MiddleFinger1_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.069440275, y: -3.209864e-10, z: 0.00000002269981}
+      rotation: {x: 0.0037043944, y: -0.06349988, z: 0.052687164, w: 0.9965833}
+      scale: {x: 1.0000012, y: 1.0000011, z: 1.0000011}
+    - name: nvhai_rig_HIK:MiddleFinger2_R
+      parentName: nvhai_rig_HIK:MiddleFinger1_R
+      position: {x: -0.03966745, y: -0.000000008060632, z: -0.000000065426235}
+      rotation: {x: 0.0003191542, y: -0.005526691, z: 0.000010365765, w: 0.99998474}
+      scale: {x: 1.0000015, y: 1.0000007, z: 1.0000004}
+    - name: nvhai_rig_HIK:MiddleFinger3_R
+      parentName: nvhai_rig_HIK:MiddleFinger2_R
+      position: {x: -0.028862268, y: -0.00000001320495, z: 0.00000003914531}
+      rotation: {x: 0.0004657384, y: 0.0022306144, z: -0.00000015707049, w: 0.9999974}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000004}
+    - name: nvhai_rig_HIK:MiddleFinger4_R
+      parentName: nvhai_rig_HIK:MiddleFinger3_R
+      position: {x: -0.016981622, y: -1.8873792e-17, z: 4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:IndexFinger1_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.070660315, y: 0.017725749, z: -0.0027408889}
+      rotation: {x: 0.0068930797, y: -0.07453436, z: 0.024321198, w: 0.99689806}
+      scale: {x: 1.0000017, y: 1.0000013, z: 1.0000012}
+    - name: nvhai_rig_HIK:IndexFinger2_R
+      parentName: nvhai_rig_HIK:IndexFinger1_R
+      position: {x: -0.031714138, y: -1.171591e-10, z: 0.00000003133194}
+      rotation: {x: -0.000000009778884, y: 0.007455757, z: -0.000525253, w: 0.99997205}
+      scale: {x: 1.0000014, y: 1.0000005, z: 1.0000008}
+    - name: nvhai_rig_HIK:IndexFinger3_R
+      parentName: nvhai_rig_HIK:IndexFinger2_R
+      position: {x: -0.02369687, y: 0.000000007728621, z: -0.00000002250216}
+      rotation: {x: -0.01427775, y: 0.00436392, z: 0.000012436066, w: 0.9998886}
+      scale: {x: 1.0000017, y: 1.000001, z: 1.0000008}
+    - name: nvhai_rig_HIK:IndexFinger4_R
+      parentName: nvhai_rig_HIK:IndexFinger3_R
+      position: {x: -0.018881213, y: -8.881784e-18, z: 9.947598e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:ThumbFinger1_R
+      parentName: nvhai_rig_HIK:Wrist_R
+      position: {x: -0.0151870595, y: 0.01378736, z: -0.008821879}
+      rotation: {x: -0.3647502, y: 0.0809465, z: -0.3881523, w: 0.84246236}
+      scale: {x: 1.0000017, y: 1.000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:ThumbFinger2_R
+      parentName: nvhai_rig_HIK:ThumbFinger1_R
+      position: {x: -0.028097318, y: 0.00000002423276, z: -0.00000003620178}
+      rotation: {x: 0.00026029343, y: -0.025654187, z: 0.021890134, w: 0.9994312}
+      scale: {x: 1.000001, y: 1.0000026, z: 1.0000005}
+    - name: nvhai_rig_HIK:ThumbFinger3_R
+      parentName: nvhai_rig_HIK:ThumbFinger2_R
+      position: {x: -0.029912319, y: -0.00000001120119, z: -8.790581e-10}
+      rotation: {x: -0.00000008675851, y: 0.000000014901159, z: 0.032092538, w: 0.99948496}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: nvhai_rig_HIK:ThumbFinger4_R
+      parentName: nvhai_rig_HIK:ThumbFinger3_R
+      position: {x: -0.019168304, y: 4.2632563e-16, z: -3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Neck_M
+      parentName: nvhai_rig_HIK:Chest_M
+      position: {x: -0.1303407, y: 0.0000001303726, z: -0.000000021500458}
+      rotation: {x: 0.00000003422918, y: -0.000000024591053, z: -0.21478443, w: 0.9766615}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: nvhai_rig_HIK:Head_M
+      parentName: nvhai_rig_HIK:Neck_M
+      position: {x: -0.05705144, y: -0.00000000198863, z: -0.00000001987625}
+      rotation: {x: -0, y: 1.7763566e-15, z: 0.161701, w: 0.9868398}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000006}
+    - name: nvhai_rig_HIK:HeadEnd_M
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.26408994, y: 1.7652545e-16, z: -2.5066468e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HDJ_1_L_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.2633168, y: -0.049070578, z: 0.0139951}
+      rotation: {x: 0.8817739, y: 0.19504635, z: -0.39301485, w: 0.17312177}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: nvhai_rig_HIK:HDJ_2_L_L
+      parentName: nvhai_rig_HIK:HDJ_1_L_L
+      position: {x: -0.01723911, y: 2.273737e-15, z: -1.4210849e-16}
+      rotation: {x: 0.000000014901158, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000002}
+    - name: nvhai_rig_HIK:HDJ_3_L_L
+      parentName: nvhai_rig_HIK:HDJ_2_L_L
+      position: {x: -0.01723911, y: -1.1368679e-15, z: 1.0658139e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: nvhai_rig_HIK:HDJ_4_L_L
+      parentName: nvhai_rig_HIK:HDJ_3_L_L
+      position: {x: -0.01723911, y: 1.8474108e-15, z: -7.1054264e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: nvhai_rig_HIK:HDJ_5_L_L
+      parentName: nvhai_rig_HIK:HDJ_4_L_L
+      position: {x: -0.017239105, y: -2.2737367e-15, z: -9.947598e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HDJ_1_R_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.2636358, y: -0.04812047, z: -0.0134074995}
+      rotation: {x: 0.9162193, y: 0.15855677, z: 0.2550783, w: -0.26521122}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000006}
+    - name: nvhai_rig_HIK:HDJ_2_R_R
+      parentName: nvhai_rig_HIK:HDJ_1_R_R
+      position: {x: -0.016801199, y: 9.947598e-16, z: 1.598721e-16}
+      rotation: {x: 0.002651453, y: 0.030945983, z: -0.08532777, w: 0.99586874}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: nvhai_rig_HIK:HDJ_3_R_R
+      parentName: nvhai_rig_HIK:HDJ_2_R_R
+      position: {x: -0.016801199, y: -1.4210849e-16, z: -2.309264e-16}
+      rotation: {x: -0.014781368, y: 0.10144445, z: -0.14342628, w: 0.98433703}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: nvhai_rig_HIK:HDJ_4_R_R
+      parentName: nvhai_rig_HIK:HDJ_3_R_R
+      position: {x: -0.016801199, y: -1.563194e-15, z: -3.197442e-16}
+      rotation: {x: 0.000000031664964, y: -0.0000000745058, z: -0.18882634, w: 0.98201054}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000002}
+    - name: nvhai_rig_HIK:HDJ_5_R_R
+      parentName: nvhai_rig_HIK:HDJ_4_R_R
+      position: {x: -0.016801203, y: 4.2632563e-16, z: -2.8421708e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_1_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1434932, y: 0.021420099, z: 0.10955539}
+      rotation: {x: -0.17228617, y: 0.005902513, z: 0.04183511, w: 0.9841405}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: nvhai_rig_HIK:Hair_side_2_L
+      parentName: nvhai_rig_HIK:Hair_side_1_L
+      position: {x: 0.048250843, y: 1.4210849e-16, z: -2.131628e-16}
+      rotation: {x: -0, y: -0, z: -8.149071e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_3_L
+      parentName: nvhai_rig_HIK:Hair_side_2_L
+      position: {x: 0.048250843, y: -7.1054265e-17, z: 7.1054265e-17}
+      rotation: {x: 0.000000059604638, y: -0.000000019092111, z: 0.07722459, w: 0.99701375}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: nvhai_rig_HIK:Hair_side_4_L
+      parentName: nvhai_rig_HIK:Hair_side_3_L
+      position: {x: 0.048250843, y: 0, z: 1.065814e-16}
+      rotation: {x: -0, y: -0, z: 1.1379782e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: nvhai_rig_HIK:Hair_side_5_L
+      parentName: nvhai_rig_HIK:Hair_side_4_L
+      position: {x: 0.048250843, y: -2.842171e-16, z: -1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_1_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1434932, y: 0.021420099, z: -0.10955539}
+      rotation: {x: 0.0059024226, y: 0.17228611, z: -0.98414046, w: 0.041835077}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000006}
+    - name: nvhai_rig_HIK:Hair_side_2_R
+      parentName: nvhai_rig_HIK:Hair_side_1_R
+      position: {x: -0.048250843, y: 0, z: 7.1054265e-17}
+      rotation: {x: -0, y: -0, z: 0.0000000017462294, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: nvhai_rig_HIK:Hair_side_3_R
+      parentName: nvhai_rig_HIK:Hair_side_2_R
+      position: {x: -0.048250843, y: 1.4210849e-16, z: 0}
+      rotation: {x: -0.000000057218134, y: 9.9915987e-17, z: 0.07722465, w: 0.99701375}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:Hair_side_4_R
+      parentName: nvhai_rig_HIK:Hair_side_3_R
+      position: {x: -0.048250843, y: 2.842171e-16, z: -2.131628e-16}
+      rotation: {x: -0, y: -0, z: 5.717006e-24, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: nvhai_rig_HIK:Hair_side_5_R
+      parentName: nvhai_rig_HIK:Hair_side_4_R
+      position: {x: -0.048250843, y: 2.1316282e-16, z: 2.3092638e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairA_1_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.046618946, y: 0.01418213, z: 0.1452872}
+      rotation: {x: 0.661384, y: 0.00000009499491, z: -0.000000025029296, w: 0.7500475}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+    - name: nvhai_rig_HIK:HairA_2_L
+      parentName: nvhai_rig_HIK:HairA_1_L
+      position: {x: 0.005584775, y: 0, z: 6.947163e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairB_1_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.03719635, y: -0.1269066, z: 0.1363185}
+      rotation: {x: 0.83794385, y: -0.0000000949949, z: -0.000000049825758, w: 0.5457565}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:HairB_2_L
+      parentName: nvhai_rig_HIK:HairB_1_L
+      position: {x: 0.005584775, y: 3.1974422e-16, z: -2.664535e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairC_1_M
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.02011383, y: -0.21741599, z: 5.3290707e-17}
+      rotation: {x: 0.000000055413686, y: 0.9999686, z: 0.007932034, w: -0.00000003352761}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+    - name: nvhai_rig_HIK:HairC_2_M
+      parentName: nvhai_rig_HIK:HairC_1_M
+      position: {x: -0.005584775, y: 1.0658141e-16, z: 1.6542323e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairB_1_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.03719635, y: -0.1269066, z: -0.1363185}
+      rotation: {x: -0.000000008847561, y: 0.8379438, z: 0.5457566, w: 0.000000063329914}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: nvhai_rig_HIK:HairB_2_R
+      parentName: nvhai_rig_HIK:HairB_1_R
+      position: {x: -0.005584775, y: -4.2632563e-16, z: 2.753353e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HairA_1_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: 0.046618946, y: 0.01418213, z: -0.1452872}
+      rotation: {x: 0.000000004190951, y: 0.6613841, z: 0.75004745, w: 0.00000006519257}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: nvhai_rig_HIK:HairA_2_R
+      parentName: nvhai_rig_HIK:HairA_1_R
+      position: {x: -0.005584775, y: 2.842171e-16, z: -4.3115873e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_L
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1011083, y: 0.05711135, z: 0.04404068}
+      rotation: {x: 0.0000013773134, y: 0.0000013750222, z: -0.70710677, w: 0.7071068}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000005}
+    - name: nvhai_rig_HIK:EyeEnd_L
+      parentName: nvhai_rig_HIK:Eye_L
+      position: {x: -0.019739442, y: -0.000000076293944, z: 0.000000076294086}
+      rotation: {x: 0, y: -0.0000038650583, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_R
+      parentName: nvhai_rig_HIK:Head_M
+      position: {x: -0.1011083, y: 0.05711135, z: -0.04404068}
+      rotation: {x: 0.0000013773134, y: 0.0000013750222, z: -0.70710677, w: 0.7071068}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000005}
+    - name: nvhai_rig_HIK:EyeEnd_R
+      parentName: nvhai_rig_HIK:Eye_R
+      position: {x: -0.019739442, y: -0.000000076293944, z: -0.000000076294086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hip_L
+      parentName: nvhai_rig_HIK:Root_M
+      position: {x: 0.09045748, y: -0.01249866, z: 0.07374918}
+      rotation: {x: 0.9999145, y: 0.010555476, z: 0.0077206492, w: 0.000082433224}
+      scale: {x: 1.0000012, y: 1.0000015, z: 1.0000011}
+    - name: nvhai_rig_HIK:Knee_L
+      parentName: nvhai_rig_HIK:Hip_L
+      position: {x: 0.251649, y: -4.618528e-16, z: 7.4162896e-16}
+      rotation: {x: 0.00000006864865, y: 0.00000011063649, z: 0.004497493, w: 0.99998987}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: nvhai_rig_HIK:Ankle_L
+      parentName: nvhai_rig_HIK:Knee_L
+      position: {x: 0.33597228, y: -8.85958e-16, z: -2.0872189e-16}
+      rotation: {x: -0.0009448197, y: -0.007727121, z: 0.00605061, w: 0.9999514}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: nvhai_rig_HIK:Toes_L
+      parentName: nvhai_rig_HIK:Ankle_L
+      position: {x: 0.05215002, y: -0.09608723, z: 6.741274e-15}
+      rotation: {x: 0.0007922023, y: 0.00059866806, z: -0.60284674, w: 0.7978564}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000002}
+    - name: nvhai_rig_HIK:ToesEnd_L
+      parentName: nvhai_rig_HIK:Toes_L
+      position: {x: 0.07857701, y: 7.9936056e-16, z: 0.0000000011828294}
+      rotation: {x: 0.00000012766185, y: 0.000000916961, z: -1.1706094e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hip_R
+      parentName: nvhai_rig_HIK:Root_M
+      position: {x: 0.09045748, y: -0.01249866, z: -0.07374918}
+      rotation: {x: -0.010555372, y: 0.9999145, z: 0.00008229911, w: -0.007720664}
+      scale: {x: 1.000001, y: 1.0000013, z: 1.000001}
+    - name: nvhai_rig_HIK:Knee_R
+      parentName: nvhai_rig_HIK:Hip_R
+      position: {x: -0.251649, y: 1.4210849e-16, z: -9.015011e-16}
+      rotation: {x: -0.00000012362578, y: -0.000000010710209, z: 0.0044974633, w: 0.9999899}
+      scale: {x: 1.0000005, y: 0.9999998, z: 0.99999994}
+    - name: nvhai_rig_HIK:Ankle_R
+      parentName: nvhai_rig_HIK:Knee_R
+      position: {x: -0.33597228, y: 2.2859488e-15, z: 1.953993e-16}
+      rotation: {x: -0.0009446858, y: -0.0077269855, z: 0.006050521, w: 0.9999515}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000006}
+    - name: nvhai_rig_HIK:Toes_R
+      parentName: nvhai_rig_HIK:Ankle_R
+      position: {x: -0.05215002, y: 0.09608723, z: -6.683543e-15}
+      rotation: {x: 0.0007914123, y: 0.0005980403, z: -0.60284674, w: 0.7978565}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000007}
+    - name: nvhai_rig_HIK:ToesEnd_R
+      parentName: nvhai_rig_HIK:Toes_R
+      position: {x: -0.07857701, y: -3.6779468e-14, z: 0.00000014012812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Geometry
+      parentName: nvhai_rig_HIK:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Ch46
+      parentName: nvhai_rig_HIK:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:HDJ
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Hair
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Body
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Xiezi_L
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Xiezi_R
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_LL
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Eye_RR
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:Brow
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nvhai_rig_HIK:EyeLash
+      parentName: nvhai_rig_HIK:Ch46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
