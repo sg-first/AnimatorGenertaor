@@ -58,7 +58,7 @@ public class animatorGenertaor : EditorWindow
 
     private List<AnimationClip> AnimationClips = new List<AnimationClip>();
     bool bPickingAnimation = false;
-    private void AddAnimationButton()
+    private void ShowAnimationPicker()
     {
         int controlID = EditorGUIUtility.GetControlID(FocusType.Passive);
         EditorGUIUtility.ShowObjectPicker<AnimationClip>(null, false, "", controlID); //显示资源选择框
@@ -90,10 +90,10 @@ public class animatorGenertaor : EditorWindow
     {
         if (GUILayout.Button("添加动画"))
         {
-            AddAnimationButton();
+            ShowAnimationPicker();
         }
 
-        if (bPickingAnimation)//添加动画的资源选择事件循环
+        if (bPickingAnimation) //添加动画的资源选择事件循环
         {
             Event ObjectPickerEvent = Event.current;
             if (ObjectPickerEvent.commandName == "ObjectSelectorUpdated") //资源选择完成
