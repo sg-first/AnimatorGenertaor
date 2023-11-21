@@ -25,7 +25,7 @@ public class animatorGenertaor : EditorWindow
     [MenuItem("Window/Animator Genertaor")]
     public static void ShowWindow()
     {
-        EditorWindow.GetWindow(typeof(animatorGenertaor)); //ÏÔÊ¾¸Ã´°¿Ú
+        EditorWindow.GetWindow(typeof(animatorGenertaor)); //æ˜¾ç¤ºè¯¥çª—å£
     }
 
     string SavePath = "";
@@ -39,10 +39,10 @@ public class animatorGenertaor : EditorWindow
         AnimatorController controller = AnimatorController.CreateAnimatorControllerAtPath("Assets/" + SavePath + ".controller");
         controller.AddLayer("Base");
         AnimatorStateMachine stateMachine = controller.layers[0].stateMachine;
-        //ÉèÖÃentry×Ó½Úµã
+        //è®¾ç½®entryå­èŠ‚ç‚¹
         AnimatorState lastState = stateMachine.AddState(AnimationClips[0].name);
         lastState.motion = AnimationClips[0];
-        //ÉèÖÃºóÃæµÄ½Úµã
+        //è®¾ç½®åé¢çš„èŠ‚ç‚¹
         for (int i = 1; i < AnimationClips.Count; i++)
         {
             AnimatorState newState = stateMachine.AddState(AnimationClips[i].name);
@@ -61,7 +61,7 @@ public class animatorGenertaor : EditorWindow
     private void ShowAnimationPicker()
     {
         int controlID = EditorGUIUtility.GetControlID(FocusType.Passive);
-        EditorGUIUtility.ShowObjectPicker<AnimationClip>(null, false, "", controlID); //ÏÔÊ¾×ÊÔ´Ñ¡Ôñ¿ò
+        EditorGUIUtility.ShowObjectPicker<AnimationClip>(null, false, "", controlID); //æ˜¾ç¤ºèµ„æºé€‰æ‹©æ¡†
         bPickingAnimation = true;
     }
     private void DoAddAnimation()
@@ -76,7 +76,7 @@ public class animatorGenertaor : EditorWindow
 
     private void ShowAnimationNames()
     {
-        GUILayout.Label("¶¯»­ĞòÁĞ", EditorStyles.boldLabel);
+        GUILayout.Label("åŠ¨ç”»åºåˆ—", EditorStyles.boldLabel);
         if (AnimationClips.Count > 0)
         {
             for (int i = 0; i < AnimationClips.Count; i++)
@@ -88,15 +88,15 @@ public class animatorGenertaor : EditorWindow
 
     private void OnGUI()
     {
-        if (GUILayout.Button("Ìí¼Ó¶¯»­"))
+        if (GUILayout.Button("æ·»åŠ åŠ¨ç”»"))
         {
             ShowAnimationPicker();
         }
 
-        if (bPickingAnimation) //Ìí¼Ó¶¯»­µÄ×ÊÔ´Ñ¡ÔñÊÂ¼şÑ­»·
+        if (bPickingAnimation) //æ·»åŠ åŠ¨ç”»çš„èµ„æºé€‰æ‹©äº‹ä»¶å¾ªç¯
         {
             Event ObjectPickerEvent = Event.current;
-            if (ObjectPickerEvent.commandName == "ObjectSelectorUpdated") //×ÊÔ´Ñ¡ÔñÍê³É
+            if (ObjectPickerEvent.commandName == "ObjectSelectorClosed") //èµ„æºé€‰æ‹©å®Œæˆ
             {
                 DoAddAnimation();
             }
@@ -104,17 +104,17 @@ public class animatorGenertaor : EditorWindow
 
         ShowAnimationNames();
 
-        if (GUILayout.Button("É¾³ı×îºóÒ»¸ö"))
+        if (GUILayout.Button("åˆ é™¤æœ€åä¸€ä¸ª"))
         {
             AnimationClips.RemoveAt(AnimationClips.Count - 1);
         }
 
-        GUILayout.Label("¹ı¶ÉÊ±¼ä", EditorStyles.boldLabel);
+        GUILayout.Label("è¿‡æ¸¡æ—¶é—´", EditorStyles.boldLabel);
         DurationTime = int.Parse(GUILayout.TextField(Convert.ToString(DurationTime)));
-        GUILayout.Label("Éú³ÉÎÄ¼şÃû", EditorStyles.boldLabel);
+        GUILayout.Label("ç”Ÿæˆæ–‡ä»¶å", EditorStyles.boldLabel);
         SavePath = GUILayout.TextField(SavePath);
 
-        if (GUILayout.Button("Éú³É"))
+        if (GUILayout.Button("ç”Ÿæˆ"))
         {
             Generate();
         }
